@@ -1,0 +1,1101 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202509 will be lost/reset.
+# Last config file used to build this data file was /home/blossom/tmp/awstats/awstats.blossomsteakhouse.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2088                
+POS_TIME 2766                
+POS_VISITOR 11325               
+POS_DAY 12792               
+POS_DOMAIN 3579                
+POS_LOGIN 3931                
+POS_ROBOT 4086                
+POS_WORMS 5030                
+POS_EMAILSENDER 5161                
+POS_EMAILRECEIVER 5304                
+POS_SESSION 13550               
+POS_FILESIZE 53531               
+POS_REQUESTTIME 53677               
+POS_SIDER 13760               
+POS_FILETYPES 5439                
+POS_DOWNLOADS 5689                
+POS_OS 6493                
+POS_BROWSER 6627                
+POS_SCREENSIZE 6972                
+POS_UNKNOWNREFERER 7046                
+POS_UNKNOWNREFERERBROWSER 7367                
+POS_ORIGIN 7553                
+POS_SEREFERRALS 7695                
+POS_PAGEREFS 7839                
+POS_SEARCHWORDS 7987                
+POS_KEYWORDS 8139                
+POS_MISC 2430                
+POS_ERRORS 8198                
+POS_CLUSTER 3787                
+POS_SIDER_404 8318                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251001000037 37 6028 10778519207251
+FirstTime 20250901005113
+LastTime 20250930235007
+LastUpdate 20251001201858 37 0 36 0 0
+TotalVisits 274                 
+TotalUnique 35                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 37                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 181 195 1103619 81 124 3478845
+1 139 139 81742 40 96 3780478
+2 185 222 41599106 90 160 1086917
+3 37 37 0 42 80 6222908
+4 61 61 155544 58 113 4874051
+5 117 118 690335 94 145 3255430
+6 90 91 375683 71 141 292187
+7 57 57 0 31 97 856937
+8 101 101 3840 31 91 721277
+9 40 40 0 39 106 7483363
+10 45 45 0 27 126 3899240
+11 109 109 4710 29 93 8396181
+12 70 70 27230 66 158 2209943
+13 43 43 0 28 90 1057850
+14 218 218 106182 46 130 887702
+15 27 27 0 19 84 2031084
+16 36 36 191390 38 110 680287
+17 114 114 31014 35 185 2125434
+18 76 76 36 91 194 15293253
+19 57 58 33152 37 128 6864668
+20 112 112 3840 28 116 1304921
+21 46 46 0 96 175 4222464
+22 57 57 0 65 177 1855466
+23 98 98 3776 34 92 615384
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+lt 1709 1709 30656
+us 337 351 2229334
+ru 56 93 41595266
+jp 7 7 55114
+id 2 3 33152
+zz 2 2 174
+in 1 1 27156
+ph 1 1 36
+ca 1 1 87
+cn 0 2 440224
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 21
+facebookexternalhit/ 428 225786 20250930222507 427
+bot[\s_+:,\.\;\/\\-] 338 45932 20250930195907 338
+DotBot/ 204 69465953 20250930235721 107
+crawl 79 6620062 20250930062135 0
+MJ12bot/ 42 4956 20250928205432 42
+Googlebot/ 29 3422 20250929180042 29
+unknown 23 3049 20250929222219 23
+AhrefsBot/ 21 2478 20250929122059 21
+robot 16 3746 20250924220657 8
+SemrushBot-SI 13 1768 20250928232911 13
+Pinterestbot 10 1360 20250930213220 10
+Sogou[\x20]web[\x20]spider/ 7 952 20250930084726 7
+PetalBot 3 408 20250929172015 3
+no_user_agent 2 366 20250929144009 2
+GPTBot/ 2 236 20250921173502 2
+SemrushBot/ 1 136 20250913171731 1
+360Spider 1 136 20250906201746 1
+Barkrowler 1 136 20250929040322 1
+bingbot/ 1 118 20250924062305 1
+Screaming[\x20]Frog[\x20]SEO[\x20]Spider/ 1 136 20250915105928 1
+aiHitBot/ 1 136 20250909081101 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+php 1373 334 0 0
+jpg 23 26620032 0 0
+mp4 5 7156016 0 0
+webp 4 488592 0 0
+css 12 668592 0 0
+pdf 7 6017688 0 0
+otf 1 73728 0 0
+html 253 3209363 0 0
+png 3 145328 0 0
+Unknown 489 31526 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 16
+/download/Restaurant-view-from-top.mp4 2 0 1796968
+/blossom-menus/Blossom-Food.pdf 2 0 4626360
+/blossom-menus/Blossom-Beverage.pdf 2 0 3543256
+/download/Grill-Seafood.mp4 2 0 10304392
+/download/Chef-Brenton-Tomahawk2.mp4 2 0 1865024
+/download/Group-Chill-out.mp4 2 0 6475880
+/download/Blossom-Press-Release.pdf 2 0 880978
+/download/Blossom-Floorplan.pdf 2 0 1969280
+/download/Blossom-Fact-Sheet.pdf 2 0 1276782
+/download/Blossom-High-Tea-Menu.pdf 1 0 374616
+/blossom-menus/Blossom-Lunch.pdf 1 0 653321
+/blossom-menus/Blossom-Dessert.pdf 1 0 464636
+/wp-content/uploads/2024/07/Blossom-Logo.pdf 1 0 566847
+/blossom-menus/Blossom-A-la-Carte.pdf 1 0 6064224
+/wp-content/uploads/2024/07/Blossom-Icon-black.pdf 1 0 375481
+/download/Food-Starter.mp4 1 0 1694160
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+Unknown 1720 1720
+win7 6 6
+linuxubuntu 93 56
+linux 1 1
+win10 350 333
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 14
+netscape5.0 1 1
+chrome105.0.0.0 1 1
+chrome102.0.5005.197 7 7
+chrome126.0.6478.114 6 6
+chrome48.0.2564.116 2 0
+Unknown 1709 1709
+mozilla 10 10
+chrome139.0.0.0 6 5
+firefox126.0 93 56
+chrome106.0.5249.119 1 1
+firefox115.0 1 1
+chrome96.0.4664.45 1 1
+chrome140.0.0.0 17 3
+chrome90.0.4430.85 315 315
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+WordPress/6.8.2;_https://www.blossomsteakhouse.com 20250930232116
+Cpanel-HTTP-Client/1.0 20250930235007
+Mozilla/5.0 20250929164329
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20250923115021
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+WordPress/6.8.2;_https://www.blossomsteakhouse.com 20250930232116
+Cpanel-HTTP-Client/1.0 20250930235007
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1735 1786
+From1 315 315
+From2 0 0
+From3 0 0
+From4 66 69
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 107 7114998
+301 1636 0
+302 7 0
+500 15 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 77
+/public/plugins/ckeditor/images/spacer.gif 3 http://blossomsteakhouse.com/public/plugins/ckeditor/images/spacer.gif
+/oldsite 1 http://blossomsteakhouse.com/oldsite
+/old 1 http://blossomsteakhouse.com/old
+/WP 1 http://blossomsteakhouse.com/WP
+/Wp 1 http://blossomsteakhouse.com/Wp
+/2018 1 http://blossomsteakhouse.com/2018
+/ads.txt 8 -
+/goods.php 1 -
+/pages/contactus/ 1 http://blossomsteakhouse.com/pages/contactus/
+/wp-old 1 http://blossomsteakhouse.com/wp-old
+/pages/contact-us/ 1 http://blossomsteakhouse.com/pages/contact-us/
+/new.php 1 -
+/vendor/phpunit/phpunit/phpunit.xsd 2 -
+/wp.php 1 -
+/TEST 1 http://blossomsteakhouse.com/TEST
+/wordpress 1 http://blossomsteakhouse.com/wordpress
+/co.php 1 -
+/wordpress/ 1 http://blossomsteakhouse.com/wordpress/
+/lc.php 1 -
+/public/plugins/Ueditor/dialogs/attachment/images/alignicon.gif 3 http://blossomsteakhouse.com/public/plugins/Ueditor/dialogs/attachment/images/alignicon.gif
+/gold.php 1 -
+/WordPress 1 http://blossomsteakhouse.com/WordPress
+/demo 1 http://blossomsteakhouse.com/demo
+/WORDPRESS 1 http://blossomsteakhouse.com/WORDPRESS
+/getcmd 1 -
+/we.php 1 -
+/Sanskrit.php 1 -
+/aa.php 1 -
+/ahax.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/filemanager.php 1 -
+/2023 1 http://blossomsteakhouse.com/2023
+/wp-content/plugins/hellopress/wp_filemanager.php 2 -
+/axx.php 1 -
+/asd67.php 1 -
+/gmo.php 2 -
+/nc4.php 1 -
+/ot.php 1 -
+/class20.php 1 -
+/Wordpress 1 http://blossomsteakhouse.com/Wordpress
+/Test 1 http://blossomsteakhouse.com/Test
+/contactus/ 1 http://blossomsteakhouse.com/contactus/
+/great.php 1 -
+/error.php 1 -
+/.well-known/security.txt 1 http://88.222.245.253:80/.well-known/security.txt
+/sitemap.xml 9 -
+/ol.php 2 -
+/ar.php 1 -
+/contact-us/ 1 http://blossomsteakhouse.com/contact-us/
+/wp 1 http://blossomsteakhouse.com/wp
+/pp.php 2 -
+/class9.php 1 -
+/Old 1 http://blossomsteakhouse.com/Old
+/bc 1 http://blossomsteakhouse.com/bc
+/num.php 1 -
+/public/plugins/Ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif 3 http://blossomsteakhouse.com/public/plugins/Ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif
+/2022 1 http://blossomsteakhouse.com/2022
+/pass.php 1 -
+/witmm.php 1 -
+/2020 1 http://blossomsteakhouse.com/2020
+/admin 1 -
+/2019 1 http://blossomsteakhouse.com/2019
+/lo.php 1 -
+/gfile.php 1 -
+/xc.php 1 -
+/backup 1 http://blossomsteakhouse.com/backup
+/wp-includes/images/wlw/ 3 binance.com
+/aua.php 1 -
+/CLA.php 1 -
+/2017 1 http://blossomsteakhouse.com/2017
+/favicon.png 1 -
+/abcd.php 1 -
+/OLD 1 http://blossomsteakhouse.com/OLD
+/test 1 http://blossomsteakhouse.com/test
+/media/system/js/core.js 1 http://blossomsteakhouse.com/media/system/js/core.js
+/lock360.php 2 -
+/wp-json/litespeed/v1/cdn_status 1 -
+/wp-gr.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 37
+88.222.245.253 1709 1709 30656 20250930235007
+165.232.182.1 315 315 307041 20250919144541
+188.143.244.130 56 93 41595266 20250912024547
+35.225.82.182 3 17 952850 20250919004755
+34.79.154.21 2 2 0 20250903160606
+180.254.225.48 2 3 33152 20250902195200
+34.105.37.64 1 1 155461 20250903055604
+128.90.169.12 1 1 27174 20250914172017
+35.199.18.14 1 1 155544 20250909045138
+43.173.177.151 1 1 36 20250929001400
+34.150.223.83 1 1 155499 20250925062322
+43.163.94.110 1 1 27158 20250901125224
+35.90.216.50 1 1 87 20250923115021
+34.105.219.249 1 1 0 20250903160603
+35.233.204.178 1 1 155461 20250903055113
+23.178.112.105 1 1 87 20250923115020
+3.150.130.244 1 1 87 20250923115021
+43.173.175.181 1 1 36 20250929061819
+13.59.146.37 1 1 87 20250923115021
+34.145.165.227 1 1 0 20250903055347
+56.228.16.161 1 1 87 20250923115020
+23.254.166.159 1 1 0 20250920051146
+35.167.170.92 1 1 87 20250923115021
+34.83.221.62 1 1 155461 20250903055040
+43.173.175.178 1 1 36 20250926061727
+119.249.100.108 0 1 220112 
+13.53.62.153 1 1 87 20250923115021
+103.165.169.135 1 1 27156 20250929164329
+23.178.112.106 1 1 87 20250923115020
+180.191.59.175 1 1 36 20250922122950
+13.229.232.112 1 1 87 20250923115020
+116.179.33.201 0 1 220112 
+47.129.151.160 1 1 87 20250923115021
+43.173.181.114 1 1 36 20250930181938
+43.173.181.82 1 1 27776 20250929001508
+43.173.177.185 1 1 36 20250922121532
+35.187.232.113 1 1 164234 20250925160505
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20250901 39 39 28182 8
+20250902 43 44 34176 10
+20250903 78 78 467343 17
+20250904 49 49 1024 7
+20250905 38 38 1024 12
+20250906 46 46 1024 10
+20250907 49 49 1024 9
+20250908 50 50 1024 10
+20250909 47 47 156568 10
+20250910 49 49 1024 8
+20250911 38 38 1024 13
+20250912 121 158 41596290 6
+20250913 45 45 1024 10
+20250914 38 40 468422 12
+20250915 38 38 1024 10
+20250916 51 51 1024 8
+20250917 40 40 1024 12
+20250918 179 179 103374 6
+20250919 290 304 1158565 8
+20250920 82 82 1024 7
+20250921 61 61 1024 8
+20250922 68 68 1096 8
+20250923 96 96 1894 14
+20250924 100 100 1024 5
+20250925 61 61 320757 8
+20250926 50 50 1060 8
+20250927 23 23 1024 10
+20250928 82 82 1024 2
+20250929 94 94 56028 9
+20250930 71 71 1060 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 3
+1h+ 96
+30s-2mn 4
+15mn-30mn 20
+0s-30s 86
+5mn-15mn 25
+30mn-1h 40
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 630
+/wp-cron.php 1230 0 171 151
+/wp-content/plugins/litespeed-cache/guest.vary.php 8 268 6 8
+/wp-includes/pomo/ 6 7440 0 0
+/wp-includes/widgets/ 6 10347 0 0
+/wp-includes/ID3/ 6 9402 0 0
+/wp-admin/includes/ 6 25116 0 0
+/wp-includes/fonts/ 6 8484 0 0
+/wp-includes/sitemaps/ 6 7740 0 0
+/wp-includes/PHPMailer/ 6 5226 0 0
+/wp-includes/Text/ 6 5166 0 0
+/are-steakhouses-expensive/ 6 654112 5 5
+/wp-admin/css/ 6 21202 2 0
+/wp-admin/maint/ 6 4632 0 0
+/wp-includes/ 6 51124 0 0
+/wp-includes/sitemaps/providers/ 6 5244 0 0
+/wp-includes/Text/Diff/ 6 5094 0 0
+/wp-includes/IXR/ 6 8088 0 0
+/wp-includes/Text/Diff/Engine/ 6 5184 0 0
+/wp-includes/Text/Diff/Renderer/ 6 4716 0 0
+/.well-known/acme-challenge/fpvEIW0DWCVcP_HLa9VirShWEuZpZzCpN_BKSiqsoOQ 5 435 5 5
+/.well-known/acme-challenge/uoNk9KhnME8qUK4-4-D0O3GcJfHxyn8BCC2lqfxnp3s 5 435 5 5
+/contact/ 4 108646 3 3
+/sanur-or-nusa-dua/ 4 33901 2 2
+/wp-includes/theme-templates.php 3 0 0 0
+/wp-includes/robots-template.php 3 0 0 0
+/.well-known/acme-challenge/572J91GW4JZF30GMGZYZHWAGJU7B-_FB 1 64 0 0
+/.well-known/acme-challenge/FS708RDMFGYI8Q86NY25OQVXIM12RJ-G 1 64 0 0
+/.well-known/acme-challenge/SWS_A2PLTYMJ27Q76ADWBE2LYKV_KJ9Y 1 64 0 0
+/.well-known/acme-challenge/LBDCE14J6TKQ0JAHAVW160K_WRPBDIR7 1 64 0 1
+/.well-known/acme-challenge/5Y-RL8WUS8J4YY6H1IY-7X7QR7D35Y_D 1 64 0 0
+/author/brenton/page/2/ 1 26745 0 0
+/.well-known/acme-challenge/OT2-_NQ0J1_9TNK50UR6FCL-VR3ESFF6 1 64 0 0
+/.well-known/acme-challenge/EOCE6T_VCT66AAC86GXS1OB3FXM4FO5- 1 64 0 0
+/.well-known/acme-challenge/70II0LI0P5F_9DMDUXJH_TZ-WJ2DSWW_ 1 64 0 0
+/.well-known/acme-challenge/K0OJ88UJ_ZVWPREGRQF2LRKOZMLBJT9C 1 64 0 0
+/sanur-or-canggu/ 1 36777 0 0
+/.well-known/acme-challenge/M39-8VIVDZSMWS46EBXTVD69HP2IXYHT 1 64 0 0
+/.well-known/acme-challenge/23UC3PJ0RXVU-TFI-3OVBKVYO277W8JS 1 64 0 0
+/.well-known/acme-challenge/EP8KFVM7SF1UAD2DULHNQBERW3BCRWM7 1 64 0 0
+/wp-includes/js/ 3 11919 0 0
+/.well-known/acme-challenge/U3P--RB1H-6K7V1L4O36HDGBSM6Z4ZH9 1 64 1 0
+/.well-known/acme-challenge/Q-Q354_2GGGAGIVM8_YXQY_ZVJ6UBSW9 1 64 0 0
+/seafood-restaurant-sanur/ 1 27942 0 0
+/.well-known/acme-challenge/7_O15PBYSKTSHEL_IHVY1TR_M4DC4M5K 1 64 0 0
+/.well-known/acme-challenge/F8UW3Y8QJC54_4L_NQ7K9N9ZH1T0XSF3 1 64 0 1
+/news/ 1 25683 0 0
+/.well-known/acme-challenge/OTL1UJA6OL3RNJTYXB0AKDAABAPXL-3D 1 64 0 1
+/.well-known/acme-challenge/XS7YY4VCCTP6ETOX3OCYA36TW7I_YNT7 1 64 0 0
+/.well-known/acme-challenge/UPNXG0_ZH9SQBCZZF4_7N2W5XB-0PVIY 1 64 1 0
+/.well-known/acme-challenge/-_BM3WNLM6-VZ1UCUF_ENI07NZ-6SASH 1 64 0 0
+/.well-known/acme-challenge/NAJMQOFX4KXHOFFYTJXBIHRK4G25PVMD 1 64 0 0
+/wp-includes/class-wp-theme-json-data.php 3 0 0 0
+/oysters-competition/ 1 27452 0 0
+/.well-known/acme-challenge/J-9XZ28LL2IJ56EL11RB4Y4IA1LTKS5Q 1 64 0 0
+/.well-known/acme-challenge/LDB2OZEK_0EIJ0MJ1KIFPY_48-LPGJTQ 1 64 0 0
+/.well-known/acme-challenge/LRCXAMWR9TEVTO50XYNSAULS7ZND15EC 1 64 0 0
+/wp-includes/class-wp-plugin-dependencies.php 3 0 0 0
+/.well-known/acme-challenge/2BPLW8STG8BLYBXPWKRFOLM8WBM_2KX9 1 64 0 0
+/.well-known/acme-challenge/4BR67P07L3U5G5R9JKGDSSG_JW908L-7 1 64 0 0
+/.well-known/acme-challenge/W3YSJ6_1RTCJAYRQC12OFV4MABG2K6WM 1 64 0 1
+/.well-known/acme-challenge/TCZ5B0BXRDSO26B8_SI9NP05750MR7LL 1 64 0 0
+/.well-known/acme-challenge/BO4IFJZEHM1-4BQI-G4895_L1_81_M6C 1 64 0 0
+/.well-known/acme-challenge/TV0JT0N-YLTSWBY1-B4XQU3LKVVBUBK- 1 64 0 0
+/.well-known/acme-challenge/_9FSWTF2D7V-5S7KPQQXU98RUBO61REY 1 64 1 0
+/.well-known/acme-challenge/O346K9JKLG3556RMBH14GNTI3ZM9RQJ9 1 64 0 1
+/ubud-or-sanur/ 1 34212 0 0
+/.well-known/acme-challenge/U_Q7NOEZJ6Y0XVA35VX_EV5OBJ-VSAQJ 1 64 0 0
+/reservations/ 1 25098 0 0
+/event/celebrate-chinese-new-year-lunch-dinner-sanur/ 1 27130 0 0
+/2024/ 1 0 1 1
+/.well-known/acme-challenge/JGAMVV1-GQ89F0NYQS-FR0UJYC74RIAE 1 64 0 0
+/.well-known/acme-challenge/93G2SSRRMU3UD7S-KQ_3_B2OL6VWKKIR 1 64 0 0
+/.well-known/ 3 2290 0 3
+/.well-known/acme-challenge/330-E7FQ0TKBKBX71SD7FPWH0Y34X14P 1 64 0 0
+/.well-known/acme-challenge/R5Y94EE-Y98UO_VT0YSLLPWC9RB52RXR 1 64 0 0
+/.well-known/acme-challenge/WNWZQSIUM1XC4FT2YLIXWLX0FU9QV8O_ 1 64 0 0
+/steakhouse-sides/ 2 194977 1 0
+/.well-known/acme-challenge/MW328XY4K7WR052JO765R5F9TJ_U5IMK 1 64 0 0
+/.well-known/acme-challenge/494BG50IWR9XZWJAQWXGRCFNTIPWSI8_ 1 64 0 0
+/wp-includes/images/media/ 3 4230 0 0
+/.well-known/acme-challenge/13D_GQ2KS4E07MYMOUDJF9EWLOKDI_SS 1 64 0 0
+/what-to-wear-to-a-steakhouse/ 1 35126 0 0
+/.well-known/acme-challenge/810FRKAPZNJKG1JWCBNUTMS5UCAAZN9V 1 64 1 0
+/.well-known/acme-challenge/ADW90RTLYPL2N3K3HHF9-AU3LGGQIHYW 1 64 0 0
+/.well-known/acme-challenge/06YHVB2_34KEW0K-8RLMGX5SXR_Y9N6D 1 64 1 0
+/.well-known/acme-challenge/6I6XJG786J0E6PIWQA9J_AEHM7GC0F2F 1 64 0 0
+/.well-known/acme-challenge/F9ZMBGB2G4X5M8KTMLE68WRF4UO1TV8U 1 64 0 0
+/.well-known/acme-challenge/WJWG0MU69JEIYJZNZE4E9JDRA9IIS5TU 1 64 0 1
+/.well-known/acme-challenge/0W9ZGI3UF0WPPVW9HC06DEDT0WH-5-_I 1 64 0 1
+/.well-known/acme-challenge/N3BWKJAC21MWTQ_MTROJK3LI6OXC99HU 1 64 0 0
+/.well-known/acme-challenge/97LQVKRNFNRAL75U508UH7NQM-OVKRAL 1 64 1 0
+/.well-known/acme-challenge/4MG43SVYSJ1WJ157ZAEZIXO2-WO8V75A 1 64 0 0
+/.well-known/acme-challenge/DL9RK4BH6VRFLZ5GN_S1AK511DVDH8WT 1 64 0 1
+/.well-known/acme-challenge/6NHPO_EGFWN3E42QJXPRH8IAM_R59005 1 64 0 0
+/.well-known/acme-challenge/OFC4AYT4J2EC5LKTNHRX2T7MWYN5SYP1 1 64 0 0
+/.well-known/acme-challenge/SCTIQK3F6MBD0GYJ_NSQCZY1G-NQ_EP3 1 64 0 0
+/.well-known/acme-challenge/COQIOD-WBZTPOPCBA6R6CAGINIY9CRJ5 1 64 0 0
+/event/christmas-lunch-dinner-sanur/ 2 55203 1 1
+/.well-known/acme-challenge/0WQMA04S9R6-3RABR3OP67OL0064F-L9 1 64 1 0
+/things-to-do-in-sanur-with-kids/ 1 35479 0 1
+/.well-known/acme-challenge/HLMBLLXN2_K06OZG7MURJI99035BUN7O 1 64 0 0
+/.well-known/acme-challenge/LQBR6HVVM62PKXFKRAU97PNYF_RRRRM8 1 64 0 0
+/.well-known/acme-challenge/HPPT8RYF23V71B_AOAA6YYY03ORSZMYE 1 64 0 0
+/.well-known/acme-challenge/NNUTY-W6B0U5I9RPLAQD37H8GL2RULPP 1 64 1 0
+/.well-known/acme-challenge/H6UDAPAL_C9FFAAN7RCTSWZRR8-RI229 1 64 1 0
+/.well-known/acme-challenge/541EN027L56AL0KIZWLPKM10Q42LNRPJ 1 64 0 0
+/wp-includes/images/crystal/ 3 3996 0 0
+/.well-known/acme-challenge/-1NUPN00Y91M6P1AV5N-UZ1DO6G62UGX 1 64 1 0
+/event/valentines-day-dinner-lunch-sanur/ 1 27157 0 0
+/.well-known/acme-challenge/BJSE5TY5UY0I_AOC1QEUWFPOU2-2T3QR 1 64 0 0
+/.well-known/acme-challenge/80B061MFZ9A2E9X_1HCLLWRT17D1Y96R 1 64 1 0
+/.well-known/acme-challenge/UWJP0EG9T0SP138GJW3YZD5IUWN0O0HN 1 64 1 0
+/wp-content/uploads/2025/08/ 3 10788 0 0
+/.well-known/acme-challenge/F_Z4FE0G9ME3B_N5WGXEBC6DXEBERVJS 1 64 0 1
+/wp-includes/fonts/class-wp-font-collection.php 3 0 0 0
+/.well-known/acme-challenge/F07D5IQQ832H6249R9QZ1J930GA6524N 1 64 0 1
+/.well-known/acme-challenge/JJGUT77WJFQR-QY9XYTLBLSPCS6P-SJN 1 64 0 0
+/.well-known/acme-challenge/0JJ22EN0309BKLDEV3N0DSN1D2D4G1EB 1 64 0 0
+/.well-known/acme-challenge/G4OAAXIPH06CHP3AWE0BBENZ9_GW79G7 1 64 0 0
+/.well-known/acme-challenge/0V3RM3-JGWI0DU77BOATEG9HAFN4ZUV5 1 64 0 0
+/event/all-you-can-eat-oysters-sanur/ 1 26851 0 0
+/.well-known/acme-challenge/DRQQ6GU9AERSXBUSMWRM8TB7LXCPWFZ4 1 64 0 1
+/.well-known/acme-challenge/CP-6PCDXAJEFDWFRGGJKC99XXZJPRQWD 1 64 0 1
+/.well-known/acme-challenge/MEHEJVZ2D5SP4_48X6KMNUY3E324MJXS 1 64 0 0
+/.well-known/acme-challenge/G3B1K99YZDUP4NL7UDPVZA9EGYZIXLF7 1 64 0 0
+/wp-includes/class-wp-speculation-rules.php 3 0 0 0
+/.well-known/acme-challenge/UPO8IXI2Q73EJ-CJG1N8ZOKNV7MO_RHX 1 64 0 1
+/.well-known/acme-challenge/9XJ5_U4M1VA17EC02HD6OUBPHVE957KZ 1 64 0 0
+/.well-known/acme-challenge/EBTP-2A26NQGXU7XCQN4MLUWAHWMR3FL 1 64 1 0
+/.well-known/acme-challenge/V0-VHID67F2ZT4PEF16YDKB9VT6L0KM4 1 64 0 0
+/.well-known/acme-challenge/MO8X8I30VI0EWLGR_7S07BTOSX8FZODR 1 64 0 0
+/.well-known/acme-challenge/L_8SH5L7-HAQUOS-KP-XE0ND57R5OEHK 1 64 1 0
+/wp-includes/block-bindings.php 3 0 0 0
+/.well-known/acme-challenge/VIXI6PWX29JWEESY8GU_LNBLVMVA-E8G 1 64 1 0
+/wp-includes/class-wpdb.php 3 0 0 0
+/steakhouse-bali/ 1 28028 0 0
+/wp-includes/fonts/class-wp-font-utils.php 3 0 0 0
+/.well-known/acme-challenge/P8-CHA0VIRIN__73F5F49B154YJL32LW 1 64 0 0
+/wp-includes/class-wp-url-pattern-prefixer.php 3 0 0 0
+/.well-known/acme-challenge/XY1RIX07-RAB5WK5N-BBO4Y_MCQLHZ6W 1 64 0 1
+/.well-known/acme-challenge/9FAIXZ4VBI_QP8DFM1DMK53_F-918ULP 1 64 0 0
+/.well-known/acme-challenge/VDWEZBTPZGGFNHDQ2ZJGWVH9XSA43D0W 1 64 0 1
+/.well-known/acme-challenge/5OIS-ENL73XMQUF1OGS5QMPIS1GJ-HND 1 64 0 0
+/.well-known/acme-challenge/X8HTI68-Z5014KOL0QLW-SN2PODSCLOC 1 64 1 0
+/.well-known/acme-challenge/P4G2FMGQ796FCXE_AQ185CFJD13NPVO- 1 64 0 1
+/.well-known/acme-challenge/AI7WVLFGJ0033KYFA755GL3HK94XGF1V 1 64 0 0
+/.well-known/acme-challenge/N5IX0L7U3OM6WYQEGT3U5QEZKLONRDPI 1 64 0 0
+/wp-includes/class-wp-block-metadata-registry.php 3 0 0 0
+/.well-known/acme-challenge/V0ARP4SUL76U62BE2E32F48NHU2C5L9Q 1 64 0 1
+/.well-known/acme-challenge/AYMGFAF9CHA27IRTSI9H0RN2HLEMYRE8 1 64 0 0
+/.well-known/acme-challenge/NKJGNI-AG5TKD379KY-Y8ZMRO7EFWK_5 1 64 0 0
+/.well-known/acme-challenge/4IWKXJYBZ1KQD60SQ8E4GPAJM_D1F74X 1 64 0 0
+/wp-includes/class-wp-theme-json.php 3 0 0 0
+/.well-known/acme-challenge/YVHIRGJRHG4Y8WQEL20H3STUQ48U3O31 1 64 0 0
+/event/bellingham-south-african-wine-dinner/ 1 26886 0 0
+/.well-known/acme-challenge/-AL9RRY2X17FADKPZ2GQL027Z894LC10 1 64 0 1
+/.well-known/acme-challenge/NELHURS9Q7EJQ5G57J1LLO09O10WHE1L 1 64 1 0
+/.well-known/acme-challenge/86Q5TBMCU6W7Z8BJ9J8GFKTVJ9C1EWJJ 1 64 0 1
+/.well-known/acme-challenge/L-J34LCBA7Z6-F30ET8LQGH-Z_B5E69U 1 64 0 0
+/.well-known/acme-challenge/1WP-_YS6Q37GSJ-VE6Y45H2--LPKFVHC 1 64 0 1
+/.well-known/acme-challenge/9AQG5CDB7OE8SE-YPJ1RL3NZ9BTIICPF 1 64 0 1
+/wp-includes/class-wp-block-editor-context.php 3 0 0 0
+/.well-known/acme-challenge/BKNTC_3YOEK0HL36_RWJJIV7127VC5F5 1 64 0 0
+/event/mitolo-wine-dinner/ 1 27016 0 0
+/wp-includes/images/smilies/ 3 4905 0 0
+/.well-known/acme-challenge/56TWKODX-LYKGAIBUDCPRZ3TRDWS6LQ9 1 64 0 0
+/.well-known/acme-challenge/UHWVSOH1VT88CEA-UR7IVB6BVHZ6ZT4F 1 64 0 0
+/wp-admin/images/ 3 8688 0 0
+/.well-known/acme-challenge/_UMQAU-U7G7TX8WWH2PUN2B2UV4-PCP7 1 64 0 0
+/wp-includes/class-wp-theme-json-resolver.php 3 0 0 0
+/.well-known/acme-challenge/36KL3BHNWVQZMB-_ZA5GW8GLMHVTVO4K 1 64 0 0
+/.well-known/acme-challenge/-G08VLCIX0QVZ0LKWDM0_RWYVIR4ER9E 1 64 0 0
+/.well-known/acme-challenge/7EMM4ELJU-BEYU9GFHE7MEQ5YONE2OJ8 1 64 0 0
+/.well-known/acme-challenge/UMQ6JH44OPPR2PVWVOXGJJ7PUEFKQDQ4 1 64 0 0
+/.well-known/acme-challenge/ZJ-WKO_-8TJ3XK8F7GX29878Y8Z6CK7H 1 64 0 0
+/.well-known/acme-challenge/K6OF5CMRW-SFRFT35ZC2DOS0_PAZCFV4 1 64 0 1
+/wp-includes/fonts.php 3 0 0 0
+/.well-known/acme-challenge/8KC95_QI1IKNX--5O8OIIXR7D0LJ27WF 1 64 0 0
+/.well-known/acme-challenge/20IPCFLOT0PUFDYV0H5B75JQ2O1LYTIU 1 64 0 0
+/.well-known/acme-challenge/AMB034SWY0W79YCYB4RBEX817P3ZI8QX 1 64 0 0
+/.well-known/acme-challenge/__Z9L579D5S6UVPM0X8LKABJ7WFJLI1J 1 64 0 0
+/.well-known/acme-challenge/SY1I1NVHJSDQSHVS2235E5ZVG-NHJ156 1 64 0 0
+/.well-known/acme-challenge/MGNTEHVMW8YGNY8FVXCF2K1GP480JQQJ 1 64 0 0
+/.well-known/acme-challenge/LGXTM0AIJC0B22H2AHMOZSFXERDHELF_ 1 64 0 0
+/.well-known/acme-challenge/TQJ_7E7UD23NN6AIXJWGRUBN4W-BAQRC 1 64 0 0
+/.well-known/acme-challenge/N8J31FLKU3AFNC3BSM1MI5CNKKW89Z_B 1 64 0 0
+/wp-admin/css/colors/light/ 3 2721 0 0
+/past-events/ 1 27001 0 0
+/wp-admin/js/widgets/ 3 4392 0 0
+/.well-known/acme-challenge/BDP8OAJONYBL62D62QQVQA-JE0Z-_YM6 1 64 0 0
+/.well-known/acme-challenge/8_5CCKI6A0IFEOHOQKYTVCZGH_UR4BFJ 1 64 0 0
+/.well-known/acme-challenge/R1W4UGGNRU6K7_FFDS1ZRICE37FAE26I 1 64 0 0
+/wp-admin/css/colors/ocean/ 3 2721 0 0
+/.well-known/acme-challenge/N08_JA-B3VOAYCEOUYPZVTAQ7ONLDFD7 1 64 0 1
+/.well-known/acme-challenge/426MT5O-XAH_I738Z2GLR65KPPE9VZUI 1 64 0 1
+/.well-known/acme-challenge/L36NFNQK1RM95-8RLY8C54LI-FA0T6SI 1 64 0 0
+/.well-known/acme-challenge/JGB_4OZU_J7_U0LUKMMDQII0S55-H-AA 1 64 1 0
+/.well-known/acme-challenge/_AX4JHXS5ZURIM4QG8RNWENZHO5NLG8D 1 64 0 0
+/.well-known/acme-challenge/U32HHA-Z3DA0X4D3V82NQATSJ4DIV3_E 1 64 0 0
+/sanur-or-uluwatu-the-ultimate-guide/ 1 34687 0 0
+/.well-known/acme-challenge/85GORTVLVWXPOEQIR_LZJSOMC1VI9IWR 1 64 0 0
+/.well-known/acme-challenge/7KUK0QJ8Y8N9OZMVNDRI1UAJ_U7FN-MA 1 64 0 1
+/.well-known/acme-challenge/4NF2XP-NBTJ_ZQ5VJMOCCZWV4ML_KBI7 1 64 0 0
+/wp-content/uploads/ 3 4185 0 0
+/.well-known/acme-challenge/DTGZ5XQIYB5U463AOBM2C4Y9OVJRMOU- 1 64 0 0
+/.well-known/acme-challenge/QRQ-26Q2LIG5NSRPUC1WV-IESD5M2DGB 1 64 0 0
+/menus/ 1 26207 0 0
+/.well-known/acme-challenge/26HJCXUU1RE9SJMI-395_K1BSKIJ11GU 1 64 0 1
+/.well-known/acme-challenge/WQ9_LWNU92EGDG1KTFF156CSLQG6TGG_ 1 64 0 0
+/.well-known/acme-challenge/URGUZGSOSE6K4KZQEE37TPQCC8F7_PPC 1 64 0 1
+/.well-known/acme-challenge/ZNAY_5Q9_G3S45ZSC0HURID26TTF98EK 1 64 0 0
+/.well-known/acme-challenge/BG18YGO3IIFU97QHWIEO_VK98WS47TX8 1 64 0 0
+/.well-known/acme-challenge/7PVFF24WJW7G8DR2HNHO1R5L24Y667BM 1 64 1 0
+/.well-known/acme-challenge/4ZT8J52VN_W1VEBOU_WCNMRFHZ4X6C_L 1 64 0 0
+/reservation-success/ 1 26291 1 0
+/.well-known/acme-challenge/2CFVDKGW7S596XGAV6N-5TYMRWS124Y0 1 64 0 0
+/.well-known/acme-challenge/1QEU3ML_-3_H5073BYMC0OU6-6_AAXHL 1 64 1 0
+/.well-known/acme-challenge/UC8ZCHIZN1XKZF3S6Q_M8P05X3E40NJV 1 64 0 1
+/.well-known/acme-challenge/G11L_Z0PM8HMATU4EJJQZA2T8YD2038G 1 64 0 0
+/.well-known/acme-challenge/HL6CULQ4AI2QGU7COMCRB3VGSRJL5G4X 1 64 0 1
+/event/chinese-new-year/ 1 27032 0 0
+/how-to-cook-restaurant-quality-steak/ 1 33308 0 0
+/.well-known/acme-challenge/5LBXQ98S5JWP628Z-Z34ELUMHC8LKIML 1 64 0 0
+/.well-known/acme-challenge/93EDJ4WDS1GH2WZF1YOO0RMXKZ59MPAB 1 64 0 0
+/.well-known/acme-challenge/WWVSE5C_6G042X9KRSXJWYNCLRJYMYWQ 1 64 0 1
+/wp-includes/class-wp-theme-json-schema.php 3 0 0 0
+/.well-known/acme-challenge/21N76U3FXT7XGDAI9U3ZBL6U4HM5S1-U 1 64 0 0
+/.well-known/acme-challenge/-WRDG6D_WAJVJ5KNRMV2WG8K_U79O720 1 64 0 0
+/.well-known/acme-challenge/1VB76SN---85UORQ1MJ48_S7HFWM36BL 1 64 0 0
+/.well-known/acme-challenge/LN6JBQSIZR6R1RPVC28AA7J_A0MORW21 1 64 1 0
+/.well-known/acme-challenge/DQRXIERR_62NSSU5GMP0N7YWV5FKCPUB 1 64 1 0
+/.well-known/acme-challenge/_2UPSJJA_0O05GPOH3L6RO7ZEHWUUQOU 1 64 0 0
+/.well-known/acme-challenge/QXKJTGGBVLEINLFSSD9UJ378JSRJGIEX 1 64 0 0
+/.well-known/acme-challenge/ZOY9--FAZV9NL8PIBMPI1ZM1NZROPFIA 1 64 0 0
+/.well-known/acme-challenge/793COT_17VYB40JYR42MAE-NWBBS3NFE 1 64 0 1
+/.well-known/acme-challenge/EBL74BZXAV4AMAN_TJUQFM8RF9Y27ZNM 1 64 0 0
+/.well-known/acme-challenge/ZA93XR8K4YUDDET-9VV14O35QM6SIR7O 1 64 0 0
+/.well-known/acme-challenge/30NR1Z8-NNZC61HAR64Y3F59DIQHOF6U 1 64 0 0
+/.well-known/acme-challenge/X8293PTT6VIABI_XBLTYVZ2VDD0-F5P7 1 64 0 0
+/.well-known/acme-challenge/NGW893NWNZE5ZKBISQQ2CQZSH0NAK-7Q 1 64 0 0
+/.well-known/acme-challenge/OLWLQEBEQ_K615Y0NAR2B_KCATVDOCG6 1 64 0 0
+/.well-known/acme-challenge/LRWBAZGLJP0HUIJR4JQX2WLGWR7S26I3 1 64 0 0
+/.well-known/acme-challenge/_VOS2E-9O6Y0Z0V3KI2NS7NE6ZKPWHK5 1 64 0 0
+/.well-known/acme-challenge/IQ6SA2OLLPDYN8WXNP12X7-JWSHOPFHU 1 64 0 0
+/.well-known/acme-challenge/G8ECZFDY2ZF4SF4IK1EP2AASBL0R7A4D 1 64 1 0
+/.well-known/acme-challenge/AMCXJPBPU64BVF4YXGV4IMP-BT7ZL4HG 1 64 1 0
+/.well-known/acme-challenge/2441EF-SKIEXL7-P1NYXUZPRJ75G5IP4 1 64 0 0
+/.well-known/acme-challenge/5KZ2J2N29JXTX6I38SI4SM32UG1ROAG5 1 64 0 0
+/.well-known/acme-challenge/209Z13EOQH87Z3EDFSXO0T7ZGSK0R5L- 1 64 0 0
+/.well-known/acme-challenge/O75456I0GN2_S4KWMEG_B2SK_HAHPCV5 1 64 0 1
+/.well-known/acme-challenge/3FRNCJEK-BJWJWRDEAR64OZ-BZ1GF0QS 1 64 0 0
+/.well-known/acme-challenge/IHK8M0Y2ODHCPVX68-Z1I1ZDHA57P6LM 1 64 0 0
+/wp-admin/css/colors/coffee/ 3 2715 0 0
+/.well-known/acme-challenge/3Q4CE2SOO51TUQE4Z32EHZWWZLVSCAKR 1 64 0 0
+/.well-known/acme-challenge/7GLGZUIWTVFX1OHWA0408JZ4ODL91TIM 1 64 0 0
+/wp-admin/css/colors/ 3 3927 0 0
+/.well-known/acme-challenge/V5FD8D8HBV5T0C8CZXJKBFJMK7BZW76E 1 64 0 0
+/.well-known/acme-challenge/Q74QDMIJHKY2_AFI2PIGKGEIDQ9W16MA 1 64 0 0
+/.well-known/acme-challenge/5-XNJG2TVJ-C4BRXU07S0_BZQYENROU9 1 64 0 0
+/.well-known/acme-challenge/7OFXV75QQ7EPYERFV8HHCBP68SB-ZN29 1 64 0 0
+/.well-known/acme-challenge/1ZCMPC4FWAUT0BBK39WHIMZKD5HLA3_- 1 64 1 0
+/.well-known/acme-challenge/OTKKNJ5ACX0O_-906CX739T_URJEU6IG 1 64 1 0
+/.well-known/acme-challenge/Q0LQ4UTTSNOA3K9Q56BQBBP6RYWY3ROI 1 64 0 0
+/event/australia-day/ 1 27047 0 0
+/.well-known/acme-challenge/47U0TQG92AY37UA1HHUPHWU2W8YAVRA_ 1 64 0 0
+/.well-known/acme-challenge/-BYD8AOWA-L5UTAXTL2HK0TLNB7K0V2- 1 64 0 0
+/.well-known/acme-challenge/353V5RE60XNSDK-A49_5RK8_KF3VEVAT 1 64 0 0
+/.well-known/acme-challenge/KBK1I83VLQLRMEFX9FE9G0GBVLFC-TWS 1 64 0 0
+/.well-known/acme-challenge/Z-1HEVHNFR598TGJP9FJ0__420DS5GFC 1 64 0 0
+/.well-known/acme-challenge/GCMV47RALJ907FKW44JAE479PUBRFY6N 1 64 0 0
+/.well-known/acme-challenge/G91Q0LI4864MF_92TGUXHYQO84__YCT5 1 64 0 0
+/.well-known/acme-challenge/AUVCAKZ89FJE83B-VB8W2R7VH_XUWGQV 1 64 0 0
+/.well-known/acme-challenge/_9K3G9OSQCUOPJ7CEAQVJOP1BXWHVWNL 1 64 0 0
+/.well-known/acme-challenge/7XLP-QPWZ3ZMHLXLP-P815VZJ5UBX8DH 1 64 0 0
+/.well-known/acme-challenge/IWY5JJ-UAC85POR9U89AFU7FY2VIV0LF 1 64 0 1
+/.well-known/acme-challenge/CALFRABRV1E6NAE93Z6HP_JKWM1CGQB7 1 64 0 1
+/.well-known/acme-challenge/G-Y4E4CTGQSKM5E1_TI9C1BP1B3PZ5-P 1 64 0 0
+/.well-known/acme-challenge/ZELO87CXHS3NQOI41QD6N4FGE4CGA62U 1 64 0 1
+/.well-known/acme-challenge/U80BEPK07GSRX2NDMDBBV2RYPYZXJFQ8 1 64 0 0
+/.well-known/acme-challenge/NBADCEAZ9NL4XSQ2YTE7XFG16SCU90ZS 1 64 0 1
+/.well-known/acme-challenge/W0N81OMLLF_QXU04WYQG_PKB_MRB3PZB 1 64 0 1
+/romantic-things-to-do-in-sanur/ 1 33852 0 0
+/.well-known/acme-challenge/-DAKHOP67LN3BXFKM5L5_VAUR1H8VQB- 1 64 0 0
+/.well-known/acme-challenge/MXFEL930F_N80_UBP7EIH1TL44GEMJGM 1 64 0 0
+/.well-known/acme-challenge/I6X97Z6YML4VX5D58XB2VYUS8_JDV-BK 1 64 0 0
+/.well-known/acme-challenge/LTIAMCR7P4-JMXAQCWVOVAH-55FL3PTJ 1 64 0 0
+/.well-known/acme-challenge/EXC-OCLCEV5UJXHMRNQKAVG12V5_AI-6 1 64 0 0
+/.well-known/acme-challenge/_Z1G16VYOMBP7HU2DZCIX9BO8C9S5ANZ 1 64 0 0
+/.well-known/acme-challenge/1FXUNCICRDT7K9JDQWOMVALO5HAAWILM 1 64 0 0
+/.well-known/acme-challenge/TF9_4AIKB71-1F42XNH3Q-N_H8L0AQPS 1 64 0 0
+/.well-known/acme-challenge/06-4R2WKILOKQED2JKFOMJWU_XNKJF61 1 64 0 0
+/.well-known/acme-challenge/AD6V73I_OCKGML7AI3YJJV0WYWAIA6RG 1 64 0 0
+/.well-known/acme-challenge/FVRK5-0YF2DWPOWJ6L5WAGGG0KCPTO-5 1 64 0 0
+/.well-known/acme-challenge/4PJYMTPQH1F_17EQSRHJGCQ_Y9XBRDFK 1 64 1 0
+/.well-known/acme-challenge/EFJ3ZEXH7FA_1YNHIA8CGAG_12ZA5W6O 1 64 0 0
+/.well-known/acme-challenge/5JTQ6DFCG-67FJ050QO0W7-B46AL6HOV 1 64 0 0
+/.well-known/acme-challenge/C52-24UKM2A6JY92T-KZ-LWBV8A2_IE5 1 64 0 0
+/.well-known/acme-challenge/U4HWB31ZP3L2CFFGOZQXSIG_3KS6TS37 1 64 0 0
+/.well-known/acme-challenge/SO1XOH82YF9T_XK4RJKGUJHOZ-FEB1IL 1 64 0 0
+/.well-known/acme-challenge/D7T4LT2-_--XQA4NDEE8DHQ06ELZ1SDY 1 64 1 0
+/.well-known/acme-challenge/ZNR1X1IUZRWFEVSNZBAK9VSGIVB0QD6I 1 64 0 1
+/news/blossom-steakhouse-opening/ 1 27509 0 0
+/.well-known/acme-challenge/0Z74M03YPXTMCWPQ-C884IVQ7CPJ63ZD 1 64 0 0
+/.well-known/acme-challenge/ODSGNDCBR1EXQCHA3BJH9_7ZTIA7LXWU 1 64 0 1
+/.well-known/acme-challenge/OHH82ZJX-ENBZA49CZ2D5_JNX6RHN0AN 1 64 1 0
+/.well-known/acme-challenge/YH586FVBGP8LCFUK0RCMCJ9-3FCOZ8RD 1 64 0 0
+/.well-known/acme-challenge/KC8_KI46IH8O4788Q_477HT_KG2F94AR 1 64 1 0
+/wp-admin/css/colors/ectoplasm/ 3 2736 0 0
+/wp-includes/js/codemirror/ 3 3900 0 0
+/.well-known/acme-challenge/U-3YF5EPLEAXQF5FXNZB5DZPKS20PACJ 1 64 0 0
+/.well-known/acme-challenge/2BO4H2DZ7G636A0B-8DTO_32ECPW0D9U 1 64 0 0
+/wp-admin/css/colors/blue/ 3 2721 0 0
+/.well-known/acme-challenge/DXGR2ZI36G_7QQON9J643WSGRXRVR66I 1 64 0 0
+/.well-known/acme-challenge/99FD5QUVGPPKGMQYAPXLT6OYCZQNGQTN 1 64 0 0
+/.well-known/acme-challenge/_T3HOBOU-2ZTRZBVWPYLOGYN4F2A5LYM 1 64 0 0
+/.well-known/acme-challenge/Y1HMDQ9BJXZAWWVKBLS90Y8GDK5559YK 1 64 0 0
+/.well-known/acme-challenge/OSI64M07V0K7XLBLF706HVFPZPSCF1QA 1 64 0 0
+/.well-known/acme-challenge/LBTUK909JOG1HR840D--YN9KVINDPVHJ 1 64 0 0
+/.well-known/acme-challenge/X4BYIRTN1NCKQI07G8TJYY8OGOLOM6N3 1 64 0 0
+/.well-known/acme-challenge/DV8QICRN2ON7CMNVSJI28-RHOVKY9JEY 1 64 0 0
+/sanur-or-seminyak-the-ultimate-guide/ 1 34169 0 0
+/.well-known/acme-challenge/Q57W40GDROW745798-UL9R8JVD9YEDBM 1 64 0 0
+/.well-known/acme-challenge/6KO7I_RYN9U7OO80_04_42CZ4YYG5TU4 1 64 1 0
+/wp-includes/class-wp-textdomain-registry.php 3 0 0 0
+/.well-known/acme-challenge/K09XS5HGLNMMZL5VYHXU3P4BV898X4CR 1 64 0 0
+/what-is-a-steakhouse/ 2 199303 1 1
+/.well-known/acme-challenge/BD__24N64AFNSQV1_WYWPSCU2_F-N__9 1 64 1 0
+/event/saturday-chill-out/ 1 26826 0 0
+/.well-known/acme-challenge/BVY3FMLGYYC_VZXAB9_YO0-V2KNNVP0D 1 64 0 0
+/.well-known/acme-challenge/HYCVNNCCIONMUV1N9QT0MDSCIM9G-0PJ 1 64 0 0
+/.well-known/acme-challenge/ZLN234JGVWRKRTPLURIL2G4E_O97J_YA 1 64 0 1
+/what-is-a-brazilian-steakhouse/ 2 187645 1 1
+/best-lunch-in-sanur/ 1 35545 0 0
+/.well-known/acme-challenge/AAYDXRNWEK0WNEZN19DPN9D6E8PH0BHI 1 64 0 0
+/wp-includes/class-wp-block-templates-registry.php 3 0 0 0
+/.well-known/acme-challenge/CMJU32Q6MNASJVDXBY6N62_3I4WYWD6E 1 64 0 0
+/.well-known/acme-challenge/CF8MQ5_NAZO9K3-ST39OY8_M4INWEV3U 1 64 0 1
+/.well-known/acme-challenge/69UBNB5UQAR_S-5ZFBKGQGA72ALJ3CSK 1 64 1 0
+/wp-includes/script-modules.php 3 0 0 0
+/.well-known/acme-challenge/RZD_SCG9CCRTOKVP-L24C4K7Z5DGFKDY 1 64 1 0
+/.well-known/acme-challenge/BXNO9DDO88NMY8LFM86R9KVJNL2FTUEL 1 64 0 0
+/.well-known/acme-challenge/BDF4YF2CP-_LDV6F97V651J8KBHG7N-9 1 64 1 0
+/event/orthodox-christmas-dinner-sanur/ 1 27179 0 0
+/.well-known/acme-challenge/RJJ9EW7SKY8MYA-BY98F6_ZIE8IYOQ35 1 64 0 1
+/best-steaks-in-bali/ 1 33929 0 0
+/.well-known/acme-challenge/RRL6792ULH7FN5ZYF32H4M_G2J4XA08G 1 64 0 0
+/.well-known/acme-challenge/2WSY62PB8PGS7M76HFMY9VVXAKU6AD-9 1 64 0 0
+/wp-includes/class-wp-token-map.php 3 0 0 0
+/wp-includes/class-wp-exception.php 3 0 0 0
+/event/saturday-night-serenade/ 1 26769 0 0
+/.well-known/acme-challenge/YBHEFIW_SG0H6PJGAAIBY_GYBD3BE4SV 1 64 0 0
+/.well-known/acme-challenge/4RFM8PGS7-ZH7P0-OE1MKWV3KDX2_RSU 1 64 0 0
+/.well-known/acme-challenge/ZUM7J1WLHG6FILK4KECHIMJNTH0VX43B 1 64 0 0
+/.well-known/acme-challenge/9S_VW2K8C4OEZ-FSYI-_R8JRHD8LOWL- 1 64 0 0
+/.well-known/acme-challenge/PHQWOD4-OUMZR1WV94TOQUAKSJ2UIFIM 1 64 0 1
+/.well-known/acme-challenge/B0MT2KK94YXO18Q-6UKWY4T_02HUQFX_ 1 64 1 0
+/.well-known/acme-challenge/ZZVFWZKSI6STITI84JPUGJ8VR6C-XHN9 1 64 0 0
+/.well-known/acme-challenge/K95U0DX-I6V2_31VBA9AZTD2N_XJNBSU 1 64 0 1
+/.well-known/acme-challenge/AB2-4LO2V2-3YQB7QY2C9HI1R9SEKW3S 1 64 0 0
+/wp-includes/class-avif-info.php 3 0 0 0
+/blossom-events/ 1 26273 0 0
+/.well-known/acme-challenge/YGQUN2YG5GQV41J4M0UCDN4TC2S3GZZF 1 64 0 0
+/.well-known/acme-challenge/AZ9A-U9C-5IQ_13YB_E7FA0BRR49V-Y1 1 64 0 0
+/.well-known/acme-challenge/1F48NTPJVMLNA0HKG29-NQ070F5N_S6O 1 64 0 0
+/.well-known/acme-challenge/FFM5J99_4UBVVMBNRZWOCABSMPSDZOH2 1 64 0 0
+/wp-content/languages/ 3 2418 0 0
+/.well-known/acme-challenge/K37-0-84R8WR08-P8HJQM8LXIQH70JAA 1 64 0 1
+/.well-known/acme-challenge/P3J-G092BCZL_--MK6XBBX1X7JIT27MZ 1 64 0 1
+/.well-known/acme-challenge/B43UCUBA_7HI1FC-QT93VKVB__UZJ0WG 1 64 0 0
+/.well-known/acme-challenge/LRU7ND06TNS8XRCY88ZDI74W8O3FOYCB 1 64 0 0
+/.well-known/acme-challenge/S3SZ7N6KH2PXRQYQ6M8S8BCZWS8MPRHI 1 64 0 0
+/wp-content/themes/blossom-git/fonts/branding-light.otf 1 73728 0 0
+/.well-known/acme-challenge/HCQCUAA5WYA31WROT3XX0CQ-WFOXQRJI 1 64 0 0
+/.well-known/acme-challenge/LBX5NMK5YZKSFA_E8-H9ZJKFVYU4E4L9 1 64 0 1
+/.well-known/acme-challenge/2Q-FQRLTX94-2Z2ZDKKM3GNMIV6E5H4C 1 64 0 1
+/.well-known/acme-challenge/V-D3RFQ--58TDKLOHNTNIYXTD8JWC4_0 1 64 0 1
+/.well-known/acme-challenge/F6O1TYPV7W__O4Z9AMX05VOGO4OF2207 1 64 1 0
+/.well-known/acme-challenge/SN_AUOIU5USWGR_IV6BGQRNET2PPK6AJ 1 64 0 0
+/.well-known/acme-challenge/MXWCYEVTLM0TGK1ZMHA27UH6JE1WGZ7K 1 64 0 0
+/.well-known/acme-challenge/UA1LEZIZYA-3TFWGYHJEUBFL7A_WCHCC 1 64 1 0
+/.well-known/acme-challenge/3F678D0HA--7WAMIWGTA3Q6_PWIRY41O 1 64 0 0
+/.well-known/acme-challenge/RBL1HF3-7L_IO473OH0_S5Z7D---_WRT 1 64 0 1
+/.well-known/acme-challenge/IVO_JA-5-Z-OI1K2Q0Y6V_SO23O44GP9 1 64 0 1
+/.well-known/acme-challenge/NKRG7FL0CPG-_A-TXC0ZPX6QEVTBXY9V 1 64 0 0
+/.well-known/acme-challenge/33V-X7M_ARDF-MAFAO9AT6QL5NA48NPS 1 64 0 1
+/.well-known/acme-challenge/NTE9ANYTEUK8SSSGT0KITKX234VU4S5Z 1 64 0 0
+/.well-known/acme-challenge/WN9OLMLG81YRCKZ0HFJ55L28WOMJCRE8 1 64 0 1
+/.well-known/acme-challenge/UODB10N22120TQPNX3SGFDCASY2HV3YT 1 64 0 0
+/.well-known/acme-challenge/KUDJLPCZXV7SXIFLRAM-C_U59L9CB7U5 1 64 1 0
+/.well-known/acme-challenge/7ORE6A2-W35K2XBQAU-98J2EFKGT97UX 1 64 1 0
+/.well-known/acme-challenge/EJPX8VQNOFKF4CA2CW0Q-1LGX9XAZUG3 1 64 0 0
+/.well-known/acme-challenge/AF0RO6LYK56K_474W8XIH-5R2FFIBVO0 1 64 0 0
+/.well-known/acme-challenge/FK9VV56J9AOT_MLC9GKQTGGXYCAGK_VT 1 64 0 0
+/.well-known/acme-challenge/TWKQP4NGNEQP6IND4IBM_22DM9J-7NZN 1 64 0 1
+/.well-known/acme-challenge/N26D85TI66GSRM4CEYO2T74R4-S-HN4U 1 64 0 1
+/.well-known/acme-challenge/JJPTIGZZJLD576E-4V9S42X-H39XC4UJ 1 64 0 0
+/wp-admin/css/colors/midnight/ 3 2733 0 0
+/.well-known/acme-challenge/MV_3AEWKTIXMO89KWEDG5B7OQIY6_FFD 1 64 0 0
+/.well-known/acme-challenge/076LNA-WXPP4XJDVQXFE4DSTGB-5PHZQ 1 64 0 0
+/.well-known/acme-challenge/M6PVC7804E1B9L0X67CU6IPMXEI36T55 1 64 0 0
+/.well-known/acme-challenge/TXXKXZ90H1CW8V_5983PUBIWHT5HM_U0 1 64 1 0
+/.well-known/acme-challenge/WLYCRSJAYYV5BI6DJI02_QLD87-DM36J 1 64 0 0
+/.well-known/acme-challenge/W8KU71WBZ0CGGA7L25305VYYXK3_XJCJ 1 64 0 1
+/.well-known/acme-challenge/6A62SVSEFL4HBNO8FU8RC7ORM-JA1-L9 1 64 0 0
+/.well-known/acme-challenge/R6DOS1KI1W66D87IK7SXA8H8E2HH9IR3 1 64 0 0
+/.well-known/acme-challenge/R6DMABFHFY-8UN-YONX-SQA4V6ZO93B_ 1 64 0 0
+/wp-includes/global-styles-and-settings.php 3 0 0 0
+/wp-includes/https-migration.php 3 0 0 0
+/.well-known/acme-challenge/0UKCHS9TOG1C2C5S9GNEGQM1A3A647P9 1 64 0 0
+/.well-known/acme-challenge/4MM8ZN27-KTHDD1D3K8GP4MDCO3O_APX 1 64 0 0
+/.well-known/acme-challenge/M9_GTY6QI-YO2VRNIDY88Q__FF1K9X7O 1 64 0 0
+/.well-known/acme-challenge/VH-A_OOGPBGF-XT6YANLQFHJFJ4O0PRM 1 64 0 0
+/.well-known/acme-challenge/II8LSI4R5FC790V72Z1LH0SN5MK6_TU3 1 64 1 0
+/.well-known/acme-challenge/NXHHBVVSEHVI-U5E8Q8GQTRJAABL9WL0 1 64 0 0
+/.well-known/acme-challenge/O5JL0MGD3IED6NI1AR7WQ-H1-5CO0LXL 1 64 0 0
+/.well-known/acme-challenge/LDN6A6VQTWHFQBYF4ELD3460MUAG4U1I 1 64 0 0
+/.well-known/acme-challenge/_NVBSWYS_-53ZK_ZZWK3DBVY51-JUZ6Z 1 64 0 0
+/.well-known/acme-challenge/ESKAHE0XM_FL5S1CYMGFDXLVB8GD5_C1 1 64 0 1
+/wp-includes/class-wp-script-modules.php 3 0 0 0
+/wp-admin/css/colors/modern/ 3 2664 0 0
+/.well-known/acme-challenge/1_I436KXFKP11_F876-LE7Q54WCSUAMW 1 64 0 0
+/.well-known/acme-challenge/_OUZB9FY1F2FY9KQIRJH3BWR6OKOM6_I 1 64 0 0
+/.well-known/acme-challenge/L51GYDPCH_OLM-R9WJX-__2CZNR-2NGT 1 64 0 1
+/.well-known/acme-challenge/CEVPUARHWDWDE0ME2-OP94QXAO6JRU9U 1 64 1 0
+/.well-known/acme-challenge/U41JPLYNYCYHRS7_BR6ZHP4W_845KRE1 1 64 0 0
+/.well-known/acme-challenge/AQ4KM6_HYSR1C_EWIIH7L-CURL1N42GC 1 64 0 0
+/wp-includes/block-template-utils.php 3 0 0 0
+/.well-known/acme-challenge/X7ZFY45RIRI9C15C6XNN5KNAEGAP4AWX 1 64 0 1
+/.well-known/acme-challenge/N-9FTS_HEAV5QCOMSYJB0GDN0VDKPHQ5 1 64 0 0
+/.well-known/acme-challenge/XXJWBLUA46_NHHCJ91NJQYDLWTL61WH1 1 64 0 0
+/.well-known/acme-challenge/4V1C0MAIOW864N4ZFB0ZSYEPES-OQLI_ 1 64 0 0
+/.well-known/acme-challenge/GAZR5O187TKGIPA5DHRLC0WZANYFHPIH 1 64 0 0
+/wp-includes/blocks/ 3 66 0 0
+/.well-known/acme-challenge/JIPWADV5G7YGKUZI_T_L7FSD4XL_2UMJ 1 64 0 0
+/.well-known/acme-challenge/_PQNX4V48O0BPGER2PZOEMM99JO3BI-8 1 64 0 0
+/wp-includes/images/ 3 5322 0 0
+/.well-known/acme-challenge/A41ZHVWRVCGHVRFGETDM42F79ZH2D_VO 1 64 0 0
+/.well-known/acme-challenge/2_TV7ICMALWUHR_HLMTZ5IKH7N9XZ0FT 1 64 1 0
+/.well-known/acme-challenge/1TDHBBMBSB32XDA8X-99A2-3HB1ZH-H2 1 64 0 0
+/wp-includes/fonts/class-wp-font-library.php 3 0 0 0
+/.well-known/acme-challenge/X4IQ4WF6CV_IR4H9MEMN15M2E_8652NR 1 64 0 0
+/wp-includes/block-template.php 3 0 0 0
+/.well-known/acme-challenge/GA89O5Q5L38075EMR5L0FK0Q4482X3UP 1 64 0 1
+/.well-known/acme-challenge/17AYXIJDAS2QEAZK8-OTHUMJJLQ4GP6O 1 64 0 0
+/wp-includes/js/plupload/ 3 4023 0 0
+/.well-known/acme-challenge/0ZK9A-XXHFNH9P_BFT-3LSKIS6Z268T_ 1 64 0 0
+/wp-includes/class-wp-duotone.php 3 0 0 0
+/.well-known/acme-challenge/TZPGX0O1SWNDN4RIIMW65SK4HV64BXCU 1 64 0 0
+/.well-known/acme-challenge/C49RN3L9DHHOJZUK4-OUP3XZXHRK5LF- 1 64 1 0
+/.well-known/acme-challenge/XJFHGN_PECAICS0FBCIH29EGFQ3QXG6O 1 64 0 0
+/wp-includes/https-detection.php 3 0 0 0
+/wp-includes/block-editor.php 3 0 0 0
+/.well-known/acme-challenge/6PMHCG267BK-N9-RU02L7KLL4C2P8LUU 1 64 0 0
+/.well-known/acme-challenge/L6F7LIKSZ342NXJOFMR3F6BQGEDAR6RK 1 64 1 0
+/.well-known/acme-challenge/8R_7A9TZFDAYA33LDDLOEP1P99I8GVED 1 64 0 0
+/.well-known/acme-challenge/77VEJFMIR-YWP0Y47NZFN77-0ZZJMVEF 1 64 1 0
+/.well-known/acme-challenge/QBIZ_ERE87V-QA0RSS3V2QVMH0D_CFTX 1 64 0 0
+/.well-known/acme-challenge/90ZAYHZ9JYRAV_VJ-8F4E_B-AJ8G6C2J 1 64 0 0
+/.well-known/acme-challenge/L7QPX9GS8KVJ9ECEWURXM7VJKH-64ZCG 1 64 0 0
+/.well-known/acme-challenge/SVJOFOOUV53U0FIVINWYVTCQ-APN9AKK 1 64 0 0
+/.well-known/acme-challenge/JV9OZGV8MNPREC1ZAHMLR8Y5_WNADWBQ 1 64 0 0
+/.well-known/acme-challenge/OKITKIH0EJOPMN3VGZTQLN2P10W3--RG 1 64 0 1
+/.well-known/acme-challenge/D0S3ZS50PGIWO01D14Y89OL6X2KGEDD2 1 64 0 1
+/.well-known/acme-challenge/5APYECYM--R45_YH-5HMU5H_6L2XIAMD 1 64 0 0
+/faq/ 1 28496 0 0
+/.well-known/acme-challenge/GBRQXQX73QWH8GJHK2QYHT16V84UI55I 1 64 0 0
+/.well-known/acme-challenge/OF3SELWKJ1I0C1EXUJADJ4LL290M41_0 1 64 0 0
+/.well-known/acme-challenge/C122NGBDPP4MTU71AT_87TQXGUDKBZ-G 1 64 0 0
+/.well-known/acme-challenge/8XMXRQKTKLYUQBQ_TG6FJXN2THIUTMEE 1 64 0 0
+/.well-known/acme-challenge/FZDM1NOPUD18611I0RCCQKXWAWUSN97P 1 64 0 1
+/.well-known/acme-challenge/K5O0L_0VWGJSUCK8E0ZXNQA96UFD-GAC 1 64 0 0
+/.well-known/acme-challenge/65EGBWJ2D_ZCTD2CJ1H6FBN1YM-9O4V4 1 64 0 0
+/wp-includes/fonts/class-wp-font-face-resolver.php 3 0 0 0
+/.well-known/acme-challenge/FL6A7QSM-HH71HXTSK13S9CFPXSADX9O 1 64 0 1
+/.well-known/acme-challenge/B8GX9_GVBMHIW_T801S8WI0S3J00L2XS 1 64 0 0
+/.well-known/acme-challenge/OO_1YB6PNOWB79RUWAG1PL5ZHO32E3YP 1 64 0 1
+/.well-known/acme-challenge/MAEA-GC_Y6V50OZEA1RG8INH8YDV7-ED 1 64 0 0
+/.well-known/acme-challenge/PCGD94C6FRM70I2ANU1WQ-7TV3LLXOO3 1 64 0 0
+/.well-known/acme-challenge/8PGU3OA96JFZ6R_JXB8XX9YAIP7FHZ3M 1 64 0 0
+/.well-known/acme-challenge/AQ7BY4M0NDACVVO-7MJP74S7FEUE0GT5 1 64 0 1
+/.well-known/acme-challenge/8D3C8SYRYTBJMGU8T5P3NGK4J_7KIQUN 1 64 0 0
+/.well-known/acme-challenge/SQ3EV2LNX7NDRKLW-PGYA5ASTPRMXY6N 1 64 0 0
+/.well-known/acme-challenge/92PT5JY3V6VJKWAO4OG5MEI5YTY1T06_ 1 64 0 0
+/.well-known/acme-challenge/Q0E4JX-S38XFOSCZF0J_7BDKN1DDCYBX 1 64 0 1
+/what-to-do-in-sanur-at-night/ 1 33982 0 0
+/.well-known/acme-challenge/-0ME2ATUQBCQ8-PLWLP9Q7A2XE8RKH9B 1 64 0 1
+/.well-known/acme-challenge/NV8_G_X1XZO125143LH2H5B68OBFPHFF 1 64 0 0
+/.well-known/acme-challenge/Z_XGUMQMQJHRFFVPEPK7FIGHQAMRLHCS 1 64 0 0
+/.well-known/acme-challenge/CGSZLP8CM7F4K-A__W45H4OL04Y0L688 1 64 0 0
+/wp-admin/js/ 3 10971 0 0
+/.well-known/acme-challenge/RADW4245619TBU-ISRI5T8QR7ZR_NU3_ 1 64 1 0
+/.well-known/acme-challenge/MS-ZUNLOOALQW0Z3US807WTG4_JJNBZY 1 64 1 0
+/.well-known/acme-challenge/TCUME9M55WVOC7WTPBWAY1I4L7_M2ON3 1 64 0 1
+/.well-known/acme-challenge/OJBC0JQ6NZPB3YJ-21YJM7IU6EIBUSCD 1 64 0 0
+/.well-known/acme-challenge/LEBGOYSWVNZHFJQYHDQPCIB5ZVHP-WPV 1 64 0 0
+/.well-known/acme-challenge/ZRBXK2HGC858UIX2-I2ZHIDO1W0Y2_JO 1 64 0 0
+/wp-includes/class-wp-block-bindings-registry.php 3 0 0 0
+/blossom-amenities-map/ 1 25347 0 0
+/wp-includes/css/ 3 6726 0 0
+/.well-known/acme-challenge/ESK0OUOZOF3FH9DVZUU6CUE_NPNJ5VWE 1 64 0 0
+/.well-known/acme-challenge/UG1_AZ1O1TS0-BYNC7MCOMM6_N-MW_F5 1 64 0 0
+/.well-known/acme-challenge/H0_C99XUBK6MXDVZ6R49EQHFQNR6WQTV 1 64 1 0
+/.well-known/acme-challenge/K_DIXLW3S2AQY9NZEBMIE88MGA-GBGY9 1 64 0 0
+/.well-known/acme-challenge/N4SL9V4S9_FOB-R-5WAOQI03F5IIJZ2X 1 64 0 0
+/.well-known/acme-challenge/BJOEE_VLA12-IW52IVRQE9T_8_9A7C_G 1 64 0 0
+/.well-known/acme-challenge/O2FJW8_F-WKHWMBWDTUZE_I1F5_PYTF5 1 64 0 1
+/.well-known/acme-challenge/5Q6A4WKOWM1SNJCJPHPLYRBLOO70EJNO 1 64 0 0
+/.well-known/acme-challenge/IZ9SUUSQ7FGOZRFLTJSXK3WGZZL1XJEA 1 64 0 0
+/wp-includes/class-wp-block-parser-frame.php 3 0 0 0
+/wp-includes/class-wp-block-template.php 3 0 0 0
+/.well-known/acme-challenge/4R-XFW-2_3JQ4X9UVL58066_AR9A3-R8 1 64 1 0
+/.well-known/acme-challenge/VVIU-GYGAS0ELFE5K0AU2W11P5BWW82T 1 64 0 0
+/.well-known/acme-challenge/PWG_1-C99GE3YGEN03M3MGXSLS3JR-5O 1 64 0 1
+/.well-known/acme-challenge/MV5DYN073B797EFNQRF1Q3CQT0GZ2QRL 1 64 0 1
+/.well-known/acme-challenge/JXNPEF4SZOJFJ5QSZOXDT7WTX3CH6OTE 1 64 0 0
+/wp-includes/class-wp-navigation-fallback.php 3 0 0 0
+/.well-known/acme-challenge/SZT7CTQK0EN_TX2S371NZZ6_ON7C89LK 1 64 0 0
+/.well-known/acme-challenge/LVJSSSUS-YU18T38QUCPD2HVH9HCI0VF 1 64 0 1
+/.well-known/acme-challenge/0RTGHLR34I4Y5WHTTKDWPH_HKHCZCZI3 1 64 0 0
+/.well-known/acme-challenge/J261CVOMGPIMJ3FPSE61N1PLLR1J66EN 1 64 0 0
+/.well-known/acme-challenge/XXO0CE3QIX_10D29SYLW9F04_RSXQQNV 1 64 0 0
+/.well-known/acme-challenge/49NGXXH94-CGLSIUCG0F5W8TE0N-A_JO 1 64 0 0
+/.well-known/acme-challenge/M5HR1CZM4M2TDHOBDFHS07CSVF9_1C4T 1 64 0 0
+/wp-includes/style-engine.php 3 0 0 0
+/.well-known/acme-challenge/XRC0QMO4BC-A-WN-PBFOBOKV-HMLUTRB 1 64 1 0
+/.well-known/acme-challenge/-C3V4-XYLAKT-CTRPDW28Z__6AFT1P17 1 64 0 0
+/.well-known/acme-challenge/V9TLWBG2Y_CDTYN5RBFWX8P2O0-KBNT8 1 64 0 0
+/wp-includes/class-wp-block-bindings-source.php 3 0 0 0
+/.well-known/acme-challenge/KDBUS03HYYC-06BKI3K5XNJMEID-ZJVT 1 64 0 0
+/.well-known/acme-challenge/ZRXJQVHIOG6SOWYKEDJAKKXXROFMBUV6 1 64 0 0
+/.well-known/acme-challenge/88CVY__RKP9JMA35YATJHASA48SV901_ 1 64 1 0
+/.well-known/acme-challenge/89BYUIJF59CFJ9-HJK2AL_ZIGAUR7VRJ 1 64 0 1
+/wp-includes/fonts/class-wp-font-face.php 3 0 0 0
+/event/new-years-eve-dinner-sanur/ 1 27200 0 0
+/.well-known/acme-challenge/3YEV3RHKC1_EF0XLYV35BXXEFCUJ_H4H 1 64 0 0
+/.well-known/acme-challenge/BQZKXK36M6DVNOFCEN2Q04BAQGP8GMCQ 1 64 0 1
+/.well-known/acme-challenge/WBGGMK0MSW1N3X80LZES1JWGKD4AGIO_ 1 64 0 1
+/what-steak-to-order-at-a-steakhouse/ 1 31904 0 0
+/.well-known/acme-challenge/WT6ZLPF5MTVXC3KQZGR-PA4EXAFZY20Q 1 64 0 0
+/.well-known/acme-challenge/9O5UN1BKQGFKNOM_QI8L1592YZRLW1YM 1 64 0 1
+/.well-known/acme-challenge/XVWFVFWNCMIXWBA22_C8GDU_F6RGHK1O 1 64 1 0
+/wp-includes/class-wp-block-parser-block.php 3 0 0 0
+/.well-known/acme-challenge/E71CJD2NZG2Y1LLRIA9HVCDFDC51HBQP 1 64 1 0
+/lunch-sanur/ 1 27256 0 0
+/.well-known/acme-challenge/UGBLKNRT9A19JST5XYNH_T_36ZNKLH4W 1 64 1 0
+/.well-known/acme-challenge/VAG8CM46-M5Z0352KN03PPI1JW-6ZG_Y 1 64 0 0
+/.well-known/acme-challenge/DGW0U1AE-L0EK1_AHONDQ8Y32-FA7HG2 1 64 0 0
+/.well-known/acme-challenge/2OWP0H8HBKGA4-XQ9MRBJ-3-TK865S9I 1 64 0 0
+/.well-known/acme-challenge/SIN8TW0YPVNV5Y71UPNL--F934-_Q8CG 1 64 0 0
+/.well-known/acme-challenge/6AOS72JB4DIOTV3LTLL7ESJL0E7FPJ6N 1 64 0 0
+/wp-includes/css/dist/ 3 4158 0 0
+/.well-known/acme-challenge/77OH9PCDRHK1AWO1UYB1JK5F9N3MXVF4 1 64 0 0
+/.well-known/acme-challenge/YA753B6WDZQLA5W9JWXHT9L9NQICLA2W 1 64 0 1
+/.well-known/acme-challenge/GSTS7W3TDEUE781YBMSJ4Z3I6LOZNN1K 1 64 1 0
+/.well-known/acme-challenge/7SLWVQT7QFZ6XXTG7YS92MPHKANRVOCO 1 64 0 1
+/.well-known/acme-challenge/E9N9C00JFW67D1_RISYO-H6QKZ3FRVN2 1 64 0 0
+/.well-known/acme-challenge/8-KD57-XNS-JJBPRV6NW1U-S8Y5CLDI9 1 64 0 0
+/exclusive-vip-dining-bali/ 2 62502 1 0
+/.well-known/acme-challenge/8ZXCXCY3J_M8NI3D05CTUWU3NRKUWD1R 1 64 1 0
+/wp-includes/class-wp-dependencies.php 3 0 0 0
+/.well-known/acme-challenge/D7WPCOLQ3TJCZ0E6GM1O93F30SGTC4J1 1 64 0 0
+/.well-known/acme-challenge/5NDHE-PQWNBROXHAEN7S2XG3FWRXFN66 1 64 0 0
+/.well-known/acme-challenge/WHUNT2OA05VHQEV134A0TDCD2D0T09CO 1 64 1 0
+/.well-known/acme-challenge/6KD0KGJI8NE3LHDEAT35EINGHAMWUI-I 1 64 0 0
+/.well-known/acme-challenge/UIOZGR1EO-GSV68WO0SUCMTHJRUQBXIL 1 64 0 0
+/.well-known/acme-challenge/XCB8JX-YIICWAMZFN70-5_RWDPCAF3WP 1 64 0 1
+/.well-known/acme-challenge/9-MIUPMLVMFDVGLU9Y0-715OLBX9DXLC 1 64 0 0
+/past-events/page/2/ 1 25838 0 0
+/.well-known/acme-challenge/W1BG5QB1X-X_S_JMDIXYRC5GL4BX5P3O 1 64 0 0
+/.well-known/acme-challenge/TOWC23VSU1Z_813QV0VFRSMLGUJ_II4G 1 64 0 0
+/.well-known/acme-challenge/WT8ECMOJ7SKODWWD4VLS0WN7_RU8YICS 1 64 1 0
+/.well-known/acme-challenge/PN0UWLF-AWH_YEAPXO35SLJU-EGWU9MS 1 64 0 0
+/.well-known/acme-challenge/DB_T3LDA-I13ORQU6__45Z8F0FVOE3KS 1 64 0 0
+/ocean-view-restaurant-sanur/ 1 27243 0 0
+/.well-known/acme-challenge/3RW6QK6794Z782A8EMGIKRZUYX5YV5GP 1 64 0 0
+/.well-known/acme-challenge/DM146XSHLWSQ4R1CFWEIUGM93HQUMB98 1 64 0 0
+/.well-known/acme-challenge/P642PJ5VE0O-A4Y9N7984Z5KJKOQE3IL 1 64 0 0
+/.well-known/acme-challenge/X3HIXVZ8X18B7CO3RE4RE5793AUM__IP 1 64 0 0
+/author/brenton/ 1 26502 0 0
+/.well-known/acme-challenge/TWLNBBVG6HPYPKL_W4JQZLYNP_2YIMUR 1 64 0 0
+/.well-known/acme-challenge/8FGHQY1OHN1K38ZYGA_C8_5YLWAZK79G 1 64 1 0
+/.well-known/acme-challenge/CLA_XNUB2GU8IQ-QC0_RL5WE3WGHPIF7 1 64 0 0
+/.well-known/acme-challenge/TEVGYO56__MP-WL0_QH8A5OVM9V-3PBR 1 64 0 1
+/.well-known/acme-challenge/EE1JAOSU5CTRF9930IOSCRMYBN1ONNR2 1 64 0 0
+/.well-known/acme-challenge/WT3MAGLGEKWMOQLNOK4R_EKRS02KSYYC 1 64 0 1
+/best-restaurants-sanur/ 1 37006 0 0
+/.well-known/acme-challenge/2GVAS9B2VS7IM2ALLPHM12VF0RBFKCWH 1 64 0 0
+/.well-known/acme-challenge/OX9FV67XDDCCJURRD-J4MNY9NJ2WHR5V 1 64 0 0
+/wp-includes/class-wp-http.php 3 66 0 0
+/where-to-drink-wine-in-sanur/ 1 33636 0 0
+/.well-known/acme-challenge/MG8C539NUH1I11B5ZD4IYAK0C1PK3YTH 1 64 0 0
+/event/valentines-day-at-blossom-steakhouse/ 1 27005 0 0
+/category/blog/ 1 25679 0 0
+/media/ 1 26741 0 0
+/.well-known/acme-challenge/OAG7I_X3CJUVPCZI3V3ULSMZHBZVGCRA 1 64 1 0
+/.well-known/acme-challenge/_2PA-FRA9XZY92XO6YAHPNHZ932DAB4N 1 64 0 0
+/.well-known/acme-challenge/O00BVMS1X2ZC4RIVD3P5EP5VWQ3OS9JS 1 64 1 0
+/.well-known/acme-challenge/D6B4BFVOTZZUWZFIC126_17Z25C7IPKQ 1 64 0 0
+/about-us/ 1 27219 0 0
+/.well-known/acme-challenge/MXSH7OE95L5Q0F70BI2UOKIOEF6X4GEZ 1 64 0 0
+/.well-known/acme-challenge/KRU3YCDIKPEP8ZZ3M9CMTLZBJ63OVKAA 1 64 0 0
+/event/celebrate-australia-day-lunch-dinner-sanur/ 1 26999 0 0
+/.well-known/acme-challenge/38LAZU0I0IA81JEACQR02ZMPJDF1IWEU 1 64 0 0
+/.well-known/acme-challenge/5ROBFQFB1U63PRKG_6Y4E4XJXFT22X62 1 64 1 0
+/.well-known/acme-challenge/YNHF9N_3H9N83D2DMKKIEQ_IR9TNH4UG 1 64 1 0
+/wp-includes/theme-previews.php 3 0 0 0
+/.well-known/acme-challenge/UAP0-CVAZL6ZVEZDU_TF9FWLUK06FIVS 1 64 0 0
+/wp-content/upgrade/ 3 2046 0 0
+/.well-known/acme-challenge/3VI58JQBC_2L324WWM7O4LBM93DO_7KY 1 64 0 0
+/wp-content/uploads/2025/09/ 3 2067 1 0
+/.well-known/acme-challenge/FTLMIMQ-GB974_6TPFTFG8H5WTB0M8CK 1 64 0 0
+/wp-admin/css/colors/sunrise/ 3 2742 0 0
+/.well-known/acme-challenge/MR62DKO1_ZF5ICE8_A-IOTYW_SNN44YN 1 64 1 0
+/.well-known/acme-challenge/-IBZ5MMDATFI8WCDB3GYN1KGRQIXLW12 1 64 0 1
+/.well-known/acme-challenge/NMWDKAQ1DMU1ILZ5E3I1KHDMZB3TXDRV 1 64 0 1
+/.well-known/acme-challenge/7LVLWMW05WFT_GB3IKTJG6ZUGT49MBKL 1 64 0 0
+/.well-known/acme-challenge/2GPQ8IRLFN6HZEY95UZ03F2J-3HV1Y6E 1 64 0 0
+/.well-known/acme-challenge/0KXI1S6R87ORGZCJ1R9IP_Z5XXGQ0HZY 1 64 0 1
+/.well-known/acme-challenge/IX7Y6X60LRK155MK_03LIN3T5IWJ21NK 1 64 0 0
+/.well-known/acme-challenge/NZGZL3237FGD_3RE10AEX5X0F4FNP3D7 1 64 0 1
+/.well-known/acme-challenge/ZCKUCRCBG7ND0Z-RT_TZ7QLY9CQQKOZZ 1 64 0 0
+/.well-known/acme-challenge/P90WBT51MV2JL8V_MX9GH-_XI0VMKZUV 1 64 0 0
+/.well-known/acme-challenge/ERIT4V874G_4WM55-61QL1YQA76F-5UH 1 64 0 0
+/.well-known/acme-challenge/9YT7J84827D5V79K86V1U65Z-HQQ-LU8 1 64 0 1
+/wp-includes/speculative-loading.php 3 0 0 0
+/wp-includes/class-wp-classic-to-block-menu-converter.php 3 0 0 0
+/.well-known/acme-challenge/61FRF9NZR8W3BHDR0_R6OT7ZV1NT7-G0 1 64 0 0
+/.well-known/acme-challenge/MV-341V0FA-DH7_F5X61XEM7AZ-GQF8C 1 64 0 0
+/.well-known/acme-challenge/6L-8O8-_U2ZNIAW2P7VPN2I3OOO83G2P 1 64 1 0
+/things-to-do-in-sanur/ 1 36840 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+100-500 944
+500-1K 78
+2K-5K 28
+0-44 3178
+5K+ 374
+44-100 489
+1K-2K 90
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

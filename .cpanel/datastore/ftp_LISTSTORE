@@ -1,0 +1,1 @@
+{"action":"fetch","timeout":0,"error":0,"exit_code":0,"data":[{"user":"blossom","homedir":"/home/blossom","type":"main"},{"type":"logaccess","homedir":"/etc/apache2/logs/domlogs/blossom","user":"blossom_logs"}],"version":"2.4","status":1,"statusmsg":"Ran adminbin Cpanel/ftp/LISTSTORE","mode":"simple"}

@@ -1,0 +1,360 @@
+2024-07-26 08:00:29,643: (clwpos.utils) [ERROR] Failed to retrieve data about php version which is currently used. Daemon is not available and cache data is not available. Contact your administrator if the issue persists.
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 315, in daemon_communicate
+    s.connect(WPOS_DAEMON_SOCKET_FILE)
+FileNotFoundError: [Errno 2] No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 280, in _php_get_installed_versions
+    return daemon_communicate({
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 332, in daemon_communicate
+    raise WposError(gettext('CloudLinux AccelerateWP daemon socket (%(filename)s) not found. '
+clwpos.cl_wpos_exceptions.WposError: CloudLinux AccelerateWP daemon socket (%(filename)s) not found. Contact your system administrator.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 1334, in _get_data_from_info_json
+    with open(info_json) as f:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/var/clwpos/uids/1034/info.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 119, in func_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 159, in run
+    result = getattr(self, self._opts.command.replace("-", "_"))()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 603, in scan
+    user_info = self._get_user_info()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 688, in _get_user_info
+    user_info = get_user_info()
+                ^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 267, in get_user_info
+    user_info = func(user_info)
+                ^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 207, in _add_php
+    result = php_info()
+             ^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 176, in php_info
+    installed_php_versions = get_cached_php_installed_versions()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/scoped_cache.py", line 50, in _wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 294, in get_cached_php_installed_versions
+    result = _php_get_installed_versions()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 284, in _php_get_installed_versions
+    return _get_data_from_info_json("installed_versions")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 1342, in _get_data_from_info_json
+    raise WposError(_("Failed to retrieve data about php version which is currently used. "
+clwpos.cl_wpos_exceptions.WposError: Failed to retrieve data about php version which is currently used. Daemon is not available and cache data is not available. Contact your administrator if the issue persists.
+2024-07-29 08:00:14,366: (clwpos.utils) [ERROR] Failed to retrieve data about php version which is currently used. Daemon is not available and cache data is not available. Contact your administrator if the issue persists.
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 315, in daemon_communicate
+    s.connect(WPOS_DAEMON_SOCKET_FILE)
+FileNotFoundError: [Errno 2] No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 280, in _php_get_installed_versions
+    return daemon_communicate({
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 332, in daemon_communicate
+    raise WposError(gettext('CloudLinux AccelerateWP daemon socket (%(filename)s) not found. '
+clwpos.cl_wpos_exceptions.WposError: CloudLinux AccelerateWP daemon socket (%(filename)s) not found. Contact your system administrator.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 1335, in _get_data_from_info_json
+    with open(info_json) as f:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/var/clwpos/uids/1034/info.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 119, in func_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 159, in run
+    result = getattr(self, self._opts.command.replace("-", "_"))()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 603, in scan
+    user_info = self._get_user_info()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 688, in _get_user_info
+    user_info = get_user_info()
+                ^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 267, in get_user_info
+    user_info = func(user_info)
+                ^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 207, in _add_php
+    result = php_info()
+             ^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 176, in php_info
+    installed_php_versions = get_cached_php_installed_versions()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/scoped_cache.py", line 50, in _wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 294, in get_cached_php_installed_versions
+    result = _php_get_installed_versions()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 284, in _php_get_installed_versions
+    return _get_data_from_info_json("installed_versions")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 1343, in _get_data_from_info_json
+    raise WposError(_("Failed to retrieve data about php version which is currently used. "
+clwpos.cl_wpos_exceptions.WposError: Failed to retrieve data about php version which is currently used. Daemon is not available and cache data is not available. Contact your administrator if the issue persists.
+2024-08-12 08:00:27,661: (clwpos.utils) [ERROR] Failed to retrieve data about php version which is currently used. Daemon is not available and cache data is not available. Contact your administrator if the issue persists.
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 315, in daemon_communicate
+    s.connect(WPOS_DAEMON_SOCKET_FILE)
+FileNotFoundError: [Errno 2] No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 280, in _php_get_installed_versions
+    return daemon_communicate({
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 332, in daemon_communicate
+    raise WposError(gettext('CloudLinux AccelerateWP daemon socket (%(filename)s) not found. '
+clwpos.cl_wpos_exceptions.WposError: CloudLinux AccelerateWP daemon socket (%(filename)s) not found. Contact your system administrator.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 1335, in _get_data_from_info_json
+    with open(info_json) as f:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/var/clwpos/uids/1034/info.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 119, in func_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 159, in run
+    result = getattr(self, self._opts.command.replace("-", "_"))()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 603, in scan
+    user_info = self._get_user_info()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 688, in _get_user_info
+    user_info = get_user_info()
+                ^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 267, in get_user_info
+    user_info = func(user_info)
+                ^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 207, in _add_php
+    result = php_info()
+             ^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 176, in php_info
+    installed_php_versions = get_cached_php_installed_versions()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/scoped_cache.py", line 50, in _wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 294, in get_cached_php_installed_versions
+    result = _php_get_installed_versions()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 284, in _php_get_installed_versions
+    return _get_data_from_info_json("installed_versions")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 1343, in _get_data_from_info_json
+    raise WposError(_("Failed to retrieve data about php version which is currently used. "
+clwpos.cl_wpos_exceptions.WposError: Failed to retrieve data about php version which is currently used. Daemon is not available and cache data is not available. Contact your administrator if the issue persists.
+2024-08-23 08:00:41,487: (clwpos.utils) [ERROR] Failed to retrieve data about php version which is currently used. Daemon is not available and cache data is not available. Contact your administrator if the issue persists.
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 315, in daemon_communicate
+    s.connect(WPOS_DAEMON_SOCKET_FILE)
+FileNotFoundError: [Errno 2] No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 280, in _php_get_installed_versions
+    return daemon_communicate({
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 332, in daemon_communicate
+    raise WposError(gettext('CloudLinux AccelerateWP daemon socket (%(filename)s) not found. '
+clwpos.cl_wpos_exceptions.WposError: CloudLinux AccelerateWP daemon socket (%(filename)s) not found. Contact your system administrator.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 1355, in _get_data_from_info_json
+    with open(info_json) as f:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/var/clwpos/uids/1034/info.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 119, in func_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 159, in run
+    result = getattr(self, self._opts.command.replace("-", "_"))()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 603, in scan
+    user_info = self._get_user_info()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 688, in _get_user_info
+    user_info = get_user_info()
+                ^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 267, in get_user_info
+    user_info = func(user_info)
+                ^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 207, in _add_php
+    result = php_info()
+             ^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 176, in php_info
+    installed_php_versions = get_cached_php_installed_versions()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/scoped_cache.py", line 50, in _wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 294, in get_cached_php_installed_versions
+    result = _php_get_installed_versions()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 284, in _php_get_installed_versions
+    return _get_data_from_info_json("installed_versions")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 1363, in _get_data_from_info_json
+    raise WposError(_("Failed to retrieve data about php version which is currently used. "
+clwpos.cl_wpos_exceptions.WposError: Failed to retrieve data about php version which is currently used. Daemon is not available and cache data is not available. Contact your administrator if the issue persists.
+2024-09-05 08:00:52,318: (clwpos.utils) [ERROR] Failed to retrieve data about php version which is currently used. Daemon is not available and cache data is not available. Contact your administrator if the issue persists.
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 315, in daemon_communicate
+    s.connect(WPOS_DAEMON_SOCKET_FILE)
+FileNotFoundError: [Errno 2] No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 280, in _php_get_installed_versions
+    return daemon_communicate({
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 332, in daemon_communicate
+    raise WposError(gettext('CloudLinux AccelerateWP daemon socket (%(filename)s) not found. '
+clwpos.cl_wpos_exceptions.WposError: CloudLinux AccelerateWP daemon socket (%(filename)s) not found. Contact your system administrator.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 1355, in _get_data_from_info_json
+    with open(info_json) as f:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/var/clwpos/uids/1034/info.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 119, in func_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 159, in run
+    result = getattr(self, self._opts.command.replace("-", "_"))()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 603, in scan
+    user_info = self._get_user_info()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 688, in _get_user_info
+    user_info = get_user_info()
+                ^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 267, in get_user_info
+    user_info = func(user_info)
+                ^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 207, in _add_php
+    result = php_info()
+             ^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 176, in php_info
+    installed_php_versions = get_cached_php_installed_versions()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/scoped_cache.py", line 50, in _wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 294, in get_cached_php_installed_versions
+    result = _php_get_installed_versions()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 284, in _php_get_installed_versions
+    return _get_data_from_info_json("installed_versions")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 1363, in _get_data_from_info_json
+    raise WposError(_("Failed to retrieve data about php version which is currently used. "
+clwpos.cl_wpos_exceptions.WposError: Failed to retrieve data about php version which is currently used. Daemon is not available and cache data is not available. Contact your administrator if the issue persists.
+2024-09-17 08:01:05,116: (clwpos.utils) [ERROR] Failed to retrieve data about php version which is currently used. Daemon is not available and cache data is not available. Contact your administrator if the issue persists.
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 315, in daemon_communicate
+    s.connect(WPOS_DAEMON_SOCKET_FILE)
+FileNotFoundError: [Errno 2] No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 280, in _php_get_installed_versions
+    return daemon_communicate({
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 332, in daemon_communicate
+    raise WposError(gettext('CloudLinux AccelerateWP daemon socket (%(filename)s) not found. '
+clwpos.cl_wpos_exceptions.WposError: CloudLinux AccelerateWP daemon socket (%(filename)s) not found. Contact your system administrator.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 1355, in _get_data_from_info_json
+    with open(info_json) as f:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/var/clwpos/uids/1034/info.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 119, in func_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 159, in run
+    result = getattr(self, self._opts.command.replace("-", "_"))()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 603, in scan
+    user_info = self._get_user_info()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/user/wpos_user.py", line 688, in _get_user_info
+    user_info = get_user_info()
+                ^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 267, in get_user_info
+    user_info = func(user_info)
+                ^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 207, in _add_php
+    result = php_info()
+             ^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 176, in php_info
+    installed_php_versions = get_cached_php_installed_versions()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/scoped_cache.py", line 50, in _wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 294, in get_cached_php_installed_versions
+    result = _php_get_installed_versions()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/data_collector_utils.py", line 284, in _php_get_installed_versions
+    return _get_data_from_info_json("installed_versions")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clwpos/utils.py", line 1363, in _get_data_from_info_json
+    raise WposError(_("Failed to retrieve data about php version which is currently used. "
+clwpos.cl_wpos_exceptions.WposError: Failed to retrieve data about php version which is currently used. Daemon is not available and cache data is not available. Contact your administrator if the issue persists.

@@ -1,0 +1,900 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202501 will be lost/reset.
+# Last config file used to build this data file was /home/blossom/tmp/awstats/awstats.blossomsteakhouse.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2051                
+POS_TIME 2729                
+POS_VISITOR 8409                
+POS_DAY 9508                
+POS_DOMAIN 3578                
+POS_LOGIN 3854                
+POS_ROBOT 4009                
+POS_WORMS 4714                
+POS_EMAILSENDER 4845                
+POS_EMAILRECEIVER 4988                
+POS_SESSION 10342               
+POS_FILESIZE 46167               
+POS_SIDER 10555               
+POS_FILETYPES 5123                
+POS_DOWNLOADS 5331                
+POS_OS 5379                
+POS_BROWSER 5503                
+POS_SCREENSIZE 5724                
+POS_UNKNOWNREFERER 5798                
+POS_UNKNOWNREFERERBROWSER 6092                
+POS_ORIGIN 6278                
+POS_SEREFERRALS 6415                
+POS_PAGEREFS 6559                
+POS_SEARCHWORDS 6733                
+POS_KEYWORDS 6885                
+POS_MISC 2393                
+POS_ERRORS 6944                
+POS_CLUSTER 3710                
+POS_SIDER_404 7078                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250201005125 20 3298 11378771785559
+FirstTime 20250101020335
+LastTime 20250131235007
+LastUpdate 20250201201322 20 0 19 0 0
+TotalVisits 405                 
+TotalUnique 26                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 26                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 71 71 8025962 58 88 330224
+1 49 49 2111594 41 81 1364059
+2 149 172 8495696 65 93 777926
+3 57 57 2492037 54 76 151760
+4 41 41 510502 34 60 259565
+5 119 119 4362529 41 67 746891
+6 56 56 2126024 51 78 3394885
+7 41 41 1262936 36 60 241502
+8 115 128 4371027 54 86 726824
+9 44 44 1013143 77 105 4272345
+10 48 74 1830811 71 92 1740047
+11 106 106 584248 45 65 944106
+12 31 31 261130 29 51 241362
+13 38 38 314904 79 95 5867684
+14 94 94 260905 66 86 2465550
+15 38 38 0 52 74 1304592
+16 35 35 997476 62 88 1658832
+17 117 117 1029406 140 182 6659033
+18 65 65 1928526 84 138 2717438
+19 45 45 0 70 108 2984137
+20 116 116 3151871 63 88 965979
+21 45 45 1017590 52 82 1713918
+22 41 41 968250 40 77 517304
+23 105 105 645537 40 85 2354896
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+lt 1442 1442 31744
+us 219 268 47542905
+au 3 16 187281
+zz 2 2 174
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+bot[\s_+:,\.\;\/\\-] 238 32242 20250131230527 238
+facebookexternalhit/ 225 36986827 20250131170757 59
+Googlebot/ 28 3304 20250130181257 28
+AhrefsBot/ 22 2596 20250130180646 22
+unknown 11 1543 20250124125421 11
+Pinterestbot 9 1224 20250131200222 9
+link 6 1098 20250122164845 6
+SemrushBot-SI 3 408 20250129062450 3
+bingbot/ 3 354 20250125083110 3
+no_user_agent 1 1340 20250121094826 0
+DotBot/ 1 183 20250108001752 1
+nutch 1 118 20250114022103 1
+YandexBot/ 1 183 20250111160031 1
+robot 1 118 20250101221057 1
+360Spider 1 136 20250106193256 1
+Applebot/ 1 136 20250123024722 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+otf 1 38016 0 0
+js 14 193964 0 0
+html 209 46513418 0 0
+png 4 27300 0 0
+php 950 124 0 0
+Unknown 506 32614 0 0
+webp 3 86384 0 0
+css 41 870284 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+Unknown 1452 1452
+ios_iphone 31 6
+win7 10 10
+win10 235 198
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 9
+chrome130.0.0.0 17 3
+chrome106.0.0.0 1 1
+mozilla 10 10
+chrome102.0.5005.197 190 190
+iphone 31 6
+chrome59.0.3071.115 1 1
+Unknown 1442 1442
+msie11.0 10 10
+firefox133.0 26 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Cpanel-HTTP-Client/1.0 20250131235007
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20250122115026
+WordPress/6.7.1;_https://www.blossomsteakhouse.com 20250131230528
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+WordPress/6.7.1;_https://www.blossomsteakhouse.com 20250131230528
+Cpanel-HTTP-Client/1.0 20250131235007
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1657 1673
+From1 0 0
+From2 0 0
+From3 2 2
+From4 7 53
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://m.facebook.com 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+404 66 7346850
+403 3 19492
+409 1 2665
+301 1478 0
+405 1 42
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 43
+/demo 1 -
+/temp/ 1 -
+/security.txt 1 -
+/humans.txt 1 -
+/chosen.php 1 -
+/wordpress 1 -
+/cms 1 -
+/ads.txt 15 -
+/phpmyadmin 1 -
+/wp/ 1 -
+/-/-/-/-/-/-/-/-/-/-/ 1 -
+/old/ 1 -
+/ucms/img/loading.gif 1 http://blossomsteakhouse.com/ucms/img/loading.gif
+/blog/ 1 -
+/test/ 1 -
+/wp-json/wp/v2/users/1 1 -
+/assets/plugins/jquery-file-upload/ 1 http://blossomsteakhouse.com/assets/plugins/jquery-file-upload/
+/.well-known/security.txt 1 -
+/dev 1 -
+/main 1 -
+/testing 1 -
+/media/system/js/core.js 4 http://blossomsteakhouse.com/media/system/js/core.js
+/ 1 -
+/vendor/phpunit/phpunit/phpunit.xsd 4 -
+/admin.php 1 -
+/newsite 1 -
+/portal 1 -
+/wordpress/wp-admin/setup-config.php 1 http://blossomsteakhouse.com/wordpress/wp-admin/setup-config.php
+/wp-includes/SimplePie/about.php 1 -
+/assets/vendors/jquery.fileupload/ 1 http://blossomsteakhouse.com/assets/vendors/jquery.fileupload/
+/wordpress/ 1 -
+/wp 1 -
+/adminer.php 1 -
+/web 1 -
+/old 1 -
+/wp-login.php 3 -
+/backup 1 -
+/blog 1 -
+/backup/ 1 -
+/test 1 -
+/tmp 2 -
+/site 1 -
+/simple.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 26
+88.222.245.253 1442 1442 31744 20250131235007
+34.145.165.227 62 62 13848703 20250131100718
+35.245.188.175 36 36 8506093 20250130224233
+35.199.18.14 32 32 7042898 20250130004524
+34.86.239.201 30 30 7475542 20250131113630
+34.86.21.151 17 17 4072166 20250130004644
+35.199.25.81 8 8 1811109 20250112025633
+34.105.37.64 7 7 1386560 20250131173520
+34.150.223.83 5 5 1282544 20250111062404
+54.70.53.60 3 26 289119 20250101020339
+35.244.90.156 3 17 1029113 20250121103538
+49.182.136.143 3 16 187281 20250119084953
+65.181.12.76 3 15 180395 20250119103158
+35.87.14.202 2 2 174 20250122115026
+34.168.171.29 2 2 310685 20250108014815
+13.48.85.26 1 1 87 20250122115026
+3.109.114.192 1 1 208241 20250124203221
+23.178.112.216 1 1 87 20250122115025
+35.225.82.182 1 1 65536 20250120235034
+16.16.193.74 1 1 87 20250122115026
+18.138.252.82 1 1 87 20250122115026
+18.188.10.204 1 1 87 20250122115026
+3.133.118.54 1 1 87 20250122115026
+23.178.112.215 1 1 87 20250122115025
+13.229.89.126 1 1 87 20250122115025
+205.169.39.25 1 1 33505 20250110104720
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20250101 48 71 609115 12
+20250102 41 41 1024 7
+20250103 60 60 1315210 14
+20250104 45 45 1024 8
+20250105 43 43 66560 13
+20250106 50 50 1024 7
+20250107 71 71 769436 9
+20250108 52 52 593144 12
+20250109 46 46 250388 9
+20250110 46 46 533257 12
+20250111 59 59 2560250 15
+20250112 78 78 7116078 14
+20250113 44 44 1024 8
+20250114 44 44 1283161 15
+20250115 54 54 1437769 14
+20250116 59 59 630842 11
+20250117 38 38 1022016 12
+20250118 39 39 499756 12
+20250119 45 70 932968 13
+20250120 44 44 1372210 16
+20250121 68 82 1778244 16
+20250122 63 63 1248739 23
+20250123 34 34 507330 12
+20250124 66 66 2911327 16
+20250125 56 56 3658536 15
+20250126 46 46 1033792 14
+20250127 61 61 2321754 15
+20250128 52 52 1528340 16
+20250129 80 80 4347919 17
+20250130 81 81 6154027 17
+20250131 53 53 1275840 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 107
+15mn-30mn 23
+5mn-15mn 16
+30mn-1h 58
+2mn-5mn 14
+30s-2mn 7
+0s-30s 180
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 512
+/wp-cron.php 946 0 182 170
+/what-is-a-brazilian-steakhouse/ 116 26399967 61 61
+/what-to-wear-to-a-steakhouse/ 68 15475560 44 44
+/sanur-or-seminyak-the-ultimate-guide/ 10 1937168 4 4
+/.well-known/acme-challenge/5HjpJj45ghzennzwBHZhZMepiYf396RK63jZ8Nd0zb8 5 435 4 5
+/.well-known/acme-challenge/jY6BAGdCKiDGml2G0rpk2DLcBTmGKw1sE9bAAujz16o 5 435 5 4
+/wp-content/plugins/litespeed-cache/guest.vary.php 4 124 0 0
+/event/celebrate-chinese-new-year/ 4 132471 2 2
+/sanur-or-nusa-dua/ 4 1027749 4 4
+/what-steak-to-order-at-a-steakhouse/ 2 495322 2 2
+/.well-known/acme-challenge/YRNSU476-KP4OD14LR85T9YSIW5DKVF4 1 64 0 0
+/.well-known/acme-challenge/LO-HZYRXEU9V0R75-IRRI4MCB7UXOT7K 1 64 0 0
+/.well-known/acme-challenge/INPXDPUD97B-G3GKAT2U7IH1ZHCE7E31 1 64 1 0
+/.well-known/acme-challenge/_USVW_BNHMDO3LRJLC62_ERV_Z7G1-RQ 1 64 0 0
+/.well-known/acme-challenge/G9UKNV06PMW9WND3LGZBQR-S-Z5G79H8 1 64 1 0
+/.well-known/acme-challenge/96168TIY-GCZ02HPNGFR5DL0JBI5KTY4 1 64 0 0
+/.well-known/acme-challenge/BP9GRHV-QADVKJL6TXKTVBEXQ43NZ7VV 1 64 0 0
+/.well-known/acme-challenge/39_TNDZD2EH06GYFSQXZ2FMRH5I8RYX1 1 64 0 1
+/.well-known/acme-challenge/J1HA39I3OYWH5-HAZR60ELVRD_6C43GE 1 64 0 0
+/.well-known/acme-challenge/6ES48HHEFVYY4SXMJYGR0BY-F8OV1AZZ 1 64 0 1
+/.well-known/acme-challenge/YHSH-9Y5RJZJR6R_4DKKDXC4U5Z35H18 1 64 0 0
+/.well-known/acme-challenge/MH9CJQ-XVYK__45CHDG7WLGNFRHTQG9L 1 64 0 0
+/.well-known/acme-challenge/S54CU8WDSBUH9ED2KGLUMQA58OLQ6YQD 1 64 0 1
+/.well-known/acme-challenge/254EIHTIX_4KXZA73BZCOT-NS28JL1_5 1 64 0 1
+/.well-known/acme-challenge/KH40JPBGGQ0Y9S06T9AGWNU90IW2VMYS 1 64 0 1
+/.well-known/acme-challenge/1M4NZO9K3XPIV5HPYKR09E903AWSBG94 1 64 0 0
+/.well-known/acme-challenge/E5NL0L19-SHUDWH6TKHBTNXQZFGZDOEA 1 64 0 0
+/.well-known/acme-challenge/6OB0HCAQQRWHZGD0EJUZPWBMFXLJ36XW 1 64 0 1
+/.well-known/acme-challenge/IPIBCRQJ3TKCJCSIZ_W4DWMWI_T2-1WR 1 64 0 0
+/.well-known/acme-challenge/ZFVFDM1D_YJ__-BEOQAF5JEHI4AHUQ_7 1 64 0 0
+/.well-known/acme-challenge/KSW80UCML3XNRRRQU7RS-X3Q1E4OXSUO 1 64 0 1
+/.well-known/acme-challenge/8T9_7MLTV5Y1YHQEAQF8MYTS-_9NF-HG 1 64 0 0
+/event/orthodox-christmas-dinner-at-blossom-steakhouse/ 1 245149 1 1
+/.well-known/acme-challenge/1AAC3JJGH1DQ-DVHGH6LV2E2WM_33WUH 1 64 0 0
+/.well-known/acme-challenge/QA4J4FCL38_FEFCF8R6GC-21QCTAOM99 1 64 0 0
+/.well-known/acme-challenge/-KHU503ERJYYV08GFAWQRE0EU2J978U1 1 64 0 0
+/.well-known/acme-challenge/M9UZ269H1VNL3KNOT_W9CU-PHSRC8CZ6 1 64 0 1
+/.well-known/acme-challenge/CBZQX87N1PRM4L3LL50T5CISRMUXQ0EI 1 64 0 0
+/.well-known/acme-challenge/1MXIGJTITCTLZ_DY-7IOVXIQ-PCTZ_O1 1 64 0 1
+/.well-known/acme-challenge/7SGLZITG65KUYEF32SLE13I6ZOH4W8H1 1 64 0 0
+/.well-known/acme-challenge/Q9JOW7XRIHH12VCT3Q1OKJY2F_1979ZX 1 64 0 0
+/.well-known/acme-challenge/FHG-GFW38V8_LZ2PN639YLIS2L3-JI51 1 64 0 0
+/.well-known/acme-challenge/S4_4LJ0-XY2_2BI0DAAYOXY8V9PKIYNL 1 64 0 0
+/.well-known/acme-challenge/H9DNNZV_D3-VB5BD7C__DQKKG0ZDP5FX 1 64 0 0
+/.well-known/acme-challenge/QZUE4QC2O1-NW_R3D5ZZ61L8HP90ITGM 1 64 0 0
+/.well-known/acme-challenge/CD79ZOEJA3LR0HYF3SLQXCBBW9CWHJ0G 1 64 0 0
+/.well-known/acme-challenge/58SCIMPH8OD25FS8ABC5W4G6XT0MI_L- 1 64 0 1
+/.well-known/acme-challenge/8N0T-YNHFGX8D5ZAH431Y-9YWE0YQQ-J 1 64 0 1
+/.well-known/acme-challenge/D-0ODCKF5JC9FMUIJRAEXDS00T3RR65J 1 64 1 0
+/.well-known/acme-challenge/4MNT_PTM03LH6UAGQLTZ7BHX0211VLAW 1 64 0 1
+/.well-known/acme-challenge/X9OKG5WNR9LFC122E4ZKNSOFN117NOK7 1 64 0 0
+/.well-known/acme-challenge/B5G7T4PSSSYUSKC0VZ-TH16WKQ318_GW 1 64 1 0
+/.well-known/acme-challenge/_J-YOHT3RH7ZYNTSSMK4X069UNS8IE56 1 64 1 0
+/.well-known/acme-challenge/OR1ON8XWJ33S4XRNCTTV5601P5LR7MPJ 1 64 0 1
+/.well-known/acme-challenge/UQ767JS24YLTHY8A6LKLS_R7ABUSC62V 1 64 0 1
+/.well-known/acme-challenge/R-PWA0W5XG6IGEWXFFI37DTB519P2MF2 1 64 0 0
+/.well-known/acme-challenge/YBQ5L158GBBANH05WJ-U4Y9TPG9EAHP1 1 64 0 0
+/.well-known/acme-challenge/ATA2U5-5ZEIZEF8W13240CK4EQ20WI9X 1 64 0 0
+/.well-known/acme-challenge/ITBB87GGBXC6AL9RBCWM2F1JZLYQIFVH 1 64 0 0
+/.well-known/acme-challenge/6F5J5Q5VIININ-B3ZC48O0AE6BR0ZK7D 1 64 0 0
+/.well-known/acme-challenge/4ZYPC2DO2-L2RD84LPRDWOMP-J6SF271 1 64 0 0
+/.well-known/acme-challenge/3NNYY0KWOHTA7JGZF7IR-_MUWKBJUBLG 1 64 0 0
+/.well-known/acme-challenge/UHQ5OCBDIMCU7TQX7WY89Y11IM6B_KXF 1 64 0 1
+/.well-known/acme-challenge/EOOE04N_TKIUD5H2UKXNCXT-MJOJ4POA 1 64 0 1
+/.well-known/acme-challenge/8ONUI17T4QUUWM625UKTDR_-TF6TU8T- 1 64 0 0
+/.well-known/acme-challenge/GB-EO331B5Q-I0GMJ3KI_9KRVANG4ITM 1 64 0 0
+/best-ocean-view-steakhouse-in-bali/ 1 261119 1 1
+/.well-known/acme-challenge/R7491K3U4TOVJ95NIXPZU7L9DR_X2CMJ 1 64 0 1
+/.well-known/acme-challenge/YY5KKSHLPSSWJ0K1GV70-QDMPGYSXONV 1 64 0 0
+/.well-known/acme-challenge/V5F7H11SHM0Q96HUCMIVVC18JPFN94Y1 1 64 0 0
+/.well-known/acme-challenge/CSNPR48YK8N_QP8B7Y5MQM_YIWNGEDKI 1 64 0 0
+/.well-known/acme-challenge/YOL6C6S4RRO9KMHFGXOA8I1RNUZDWQPY 1 64 1 0
+/.well-known/acme-challenge/0YILXUL35GBUKELAIYL7Z7L_JADVTI95 1 64 0 0
+/.well-known/acme-challenge/MVADKYJKT1LNWUDKBCV6KI0KNSJ209N4 1 64 0 1
+/.well-known/acme-challenge/FSB42IU521Z4GTFC08WQALS2SFRDBY03 1 64 0 0
+/.well-known/acme-challenge/DJ6UW7LF_NEIH5805UJ8HSII12VWA3S4 1 64 0 0
+/.well-known/acme-challenge/P14AZ0D3NYHZRFS14CX_G9EBAUK3OZU8 1 64 0 0
+/.well-known/acme-challenge/CJHW96K43SJYAH-HLR_N7OU6VI33A9TT 1 64 0 0
+/.well-known/acme-challenge/PPY8E5RVJBU-Z-SSRQR5XESU-Q4KSOZ- 1 64 0 0
+/.well-known/acme-challenge/G449S7SLKSVJ71CHNTW6VCS5H9_EH1LY 1 64 0 0
+/.well-known/acme-challenge/1J22J1OKIYO8OOPKFGVEDB65BYGBGENK 1 64 1 0
+/.well-known/acme-challenge/YTGOECK5P4-GFBIAOB7Z_NW0OHPP_7X_ 1 64 1 0
+/.well-known/acme-challenge/3KNBLT-N40TQTS2X715WSECJPLU-XSUS 1 64 0 0
+/.well-known/acme-challenge/TAR_AOTADF56LI7KZX52WQP7NT5KTGQ7 1 64 0 0
+/.well-known/acme-challenge/VG5LRPB-1G9EKBVFDPDR29VOGGPZZENO 1 64 0 0
+/.well-known/acme-challenge/P8I_SI95YPLUSOURYK9L4TR8-M5C78FO 1 64 0 1
+/.well-known/acme-challenge/55B0HV-B95UIRSBBBL5V5HZRC5O_F95X 1 64 0 0
+/.well-known/acme-challenge/1P20U28B3SGAS78JC4JB_2XJ9H7372_1 1 64 1 0
+/.well-known/acme-challenge/T68T2Q_ADOPDA7GVMPTHP6E2TW2XUGXX 1 64 0 1
+/.well-known/acme-challenge/MO43GOG8AI__DU2084RQ7LOHR15W-PQ5 1 64 0 0
+/.well-known/acme-challenge/IT2CTU2FMZ8_ZR2B7HL5_3V168P3FMAI 1 64 0 1
+/.well-known/acme-challenge/QX4BDH5QYQ1FGJZV63BY3ABZJUUQ04VS 1 64 0 0
+/.well-known/acme-challenge/2VQG5TQTTGBIGOXWFGKKXRZKYHVS196J 1 64 0 0
+/.well-known/acme-challenge/9U4M-ODZKEWCMGZ54K-1YYBA7ZDRS4IM 1 64 1 0
+/.well-known/acme-challenge/C_GJIO5FDT5F8TLG9U6MO5HGCY3N0F5P 1 64 0 1
+/.well-known/acme-challenge/6UQMZQF-TXQ9UDFGG4F46SOGNRO5Z6AH 1 64 0 0
+/.well-known/acme-challenge/9JFYXL_3B8N483DOHBHBD1VPLV9-5CT4 1 64 0 0
+/.well-known/acme-challenge/HJX6C3-7PXDL-4DW50HTABAGLISU1J3Z 1 64 0 0
+/.well-known/acme-challenge/JA9PO36UVOBZMEYNSOCE6XBA49BUA651 1 64 1 0
+/.well-known/acme-challenge/O87I51AW89DUTCSR1J-VK_SB6A-M88P0 1 64 0 0
+/.well-known/acme-challenge/Z01F3BB_B5WRH6V_FOCN3D0FUE9O-4Q- 1 64 0 0
+/.well-known/acme-challenge/-WG0XO6H38BF8HK8KNZ6LDDOC2XGTY2- 1 64 0 0
+/.well-known/acme-challenge/C8JHLUBFXQ1ZOFY1E_CQWGS-52H31I5E 1 64 1 0
+/.well-known/acme-challenge/912LIUYQC0_SALSIFH8UPAYXV67SSQ4O 1 64 0 0
+/.well-known/acme-challenge/ZXW3Q1UQZWF8NFQXD0IZHO6D7W_BFV3N 1 64 1 0
+/.well-known/acme-challenge/USYZTUFHUOX6GSFEWK4EQHJBRBDJT0CA 1 64 0 0
+/.well-known/acme-challenge/ALP7Y698I7AK5KTRDJ3_OE6P_F1WJR26 1 64 0 1
+/.well-known/acme-challenge/UDIG6R22B7IN1IAAS6_BPQZ0BQR21D6D 1 64 0 0
+/.well-known/acme-challenge/Z5O8YHMLRDB5MFZIJT_CRTRIRD8_3V_E 1 64 0 0
+/.well-known/acme-challenge/D3GHJWU4T5C2P3152IRQ14QIJF0O39SD 1 64 0 1
+/.well-known/acme-challenge/CE_LS9OT5LZK-NBZ6A_SNLD_QFDF76BI 1 64 0 0
+/.well-known/acme-challenge/EGU9L-M2IYV_HK5NIVLG56JFFI57HY7H 1 64 0 0
+/.well-known/acme-challenge/ISRKH5U39YANXZZAYT7IABL29NDO9TMU 1 64 0 1
+/.well-known/acme-challenge/PTTEQ39762JI0HS8OU434QEPL7HO06Z5 1 64 0 1
+/.well-known/acme-challenge/N9IPFCFRT-LQVBKGKTYTPR5DWXHKSXM8 1 64 0 1
+/.well-known/acme-challenge/1XC-MHBIA8P469D2SOP-JVLPI8UX7MJL 1 64 0 0
+/.well-known/acme-challenge/O9H0AEY443Q-VEW74K-URXIQEWF_PFOS 1 64 0 1
+/.well-known/acme-challenge/H_33IXF1IPYRRMVCOU7AZGB364AJN4ID 1 64 1 0
+/.well-known/acme-challenge/730OK6-90EFF1D--_YX7AT2938ETQZYO 1 64 1 0
+/.well-known/acme-challenge/TL45IOURWRO2SUKBSU7SIP6EGNIPM_CB 1 64 0 0
+/.well-known/acme-challenge/FD2GQVDIUD_N_GZ9VS8LZ3-6MIKUI6N8 1 64 0 0
+/.well-known/acme-challenge/7V0QFE_XG0C8KN6PXRTJ0G76E5Z4SCZ3 1 64 0 0
+/.well-known/acme-challenge/VIEJOBEB3E51N5IH-XWOU83SF7XU-SPM 1 64 0 0
+/.well-known/acme-challenge/WOXW2U4TDMPWGZ9RJ82QY2N0QUX7LYG8 1 64 0 0
+/.well-known/acme-challenge/R6AOFAC5RQ8HFSZJ0J5235AK_LE-FL99 1 64 0 0
+/.well-known/acme-challenge/WQN7N73O3FIFQGIZUAG_Q9HUVUBL8XPB 1 64 0 1
+/.well-known/acme-challenge/SHTX976ES1AWABO64D8I6EGZUG-86YAU 1 64 0 0
+/.well-known/acme-challenge/1M7DD-O74PSP3R2308TPS8R_19ZSYT1Z 1 64 0 0
+/.well-known/acme-challenge/KJIWVX4H2L3_HOL1HZM6L8E3PIGVW3X6 1 64 0 0
+/.well-known/acme-challenge/5LG9QCGNEXA1YAE16_-0NNNFXNX9ZI1S 1 64 0 0
+/.well-known/acme-challenge/TTJBA2R63-WGR_ZWCP3HHR53UONAN6_N 1 64 0 0
+/.well-known/acme-challenge/HRW_5NGH2GZ60YVJ4UHINQ_BXFWQ0VH5 1 64 0 0
+/.well-known/acme-challenge/2B12B8AJ3RSDH7GBI8J-ANO2J91-M6F4 1 64 0 1
+/.well-known/acme-challenge/936BZPDFG9_I1CMV_YOYJ87G80T7S9PM 1 64 1 0
+/.well-known/acme-challenge/8YJIHRKVCMBT6ICC27L60HRRKKF5_-JK 1 64 0 0
+/.well-known/acme-challenge/20VTFXJUS0LUX9KM-2XNHX07SXQC2Q18 1 64 0 0
+/.well-known/acme-challenge/EL3-LHVOFPG-KHUJSMERCZVMMN4VR3X5 1 64 0 1
+/.well-known/acme-challenge/_QCNG9L_5SQ_U5DQA89M8Z5ALOIEN-_L 1 64 0 0
+/.well-known/acme-challenge/6LPHXG1TL8XIGH6WTIQ-ORFFMQ180GL9 1 64 0 0
+/.well-known/acme-challenge/BX-KZUG7F1QTEU0S6H1_LPS2-3G6RPNA 1 64 0 0
+/.well-known/acme-challenge/XBNUT11U43QJH2PWNWB3FV-83GNQ8AI1 1 64 0 1
+/.well-known/acme-challenge/QCBCD9JVF5NDJQG4_0WQP39N88OP_4-1 1 64 0 0
+/.well-known/acme-challenge/MAZJZH-2M2XYG6JRA9G0B31G2982BZOX 1 64 1 0
+/.well-known/acme-challenge/FGZ01I7-S-8GM1W-QAEV32P53WFNGR9_ 1 64 1 0
+/.well-known/acme-challenge/_2XSR2GOH071UPWYF2JH7288UP1E49TT 1 64 0 1
+/.well-known/acme-challenge/FYXL_E2-HFG_NDI52O0UIMS-84WQMFDX 1 64 0 0
+/.well-known/acme-challenge/55D148EBOI1VEBW2ITBHXO_3JGJMP13K 1 64 0 1
+/.well-known/acme-challenge/S0ULA_OJCR6C6--P1J4D_SD-ENSYIWCE 1 64 0 0
+/.well-known/acme-challenge/TEW3DULQE-4B17YCPTWIA5LCQVR4_ABV 1 64 1 0
+/.well-known/acme-challenge/S0T80WFT4Y4Z2W0266L3RDYS3OV86_ZD 1 64 0 0
+/.well-known/acme-challenge/4PMNEVUL-V4TDCUPUG32YUM-IDVY46QN 1 64 0 0
+/.well-known/acme-challenge/YULBKD4RGXS2JVS_CW_BNCVZVFABV7AN 1 64 1 0
+/.well-known/acme-challenge/-44ALGY_PAKSPWY3A-PCQF-4K-P8YC3R 1 64 0 0
+/.well-known/acme-challenge/NEZXW383_KOFQMI29DKS80GJF-VXM2WP 1 64 0 0
+/.well-known/acme-challenge/_LB5YD4I7JSDOABZ-GFO8MZERW36J0OM 1 64 1 0
+/.well-known/acme-challenge/V3LR90HC_4LXI5JMH0PB2KV63PF2P4-H 1 64 0 0
+/.well-known/acme-challenge/WRCSGDAWK5UYW6ZJR0HP4V_RHS25XNP6 1 64 1 0
+/.well-known/acme-challenge/NY-S5-496USTRTLUHWC1FE1B2N0FH0P8 1 64 0 0
+/.well-known/acme-challenge/NB89KPWBKMLZED9JYOVC3JOT0LWYC10- 1 64 0 1
+/.well-known/acme-challenge/OMT-V6D7SKXAE6TQ2L828I0MS8M8YYXT 1 64 0 0
+/.well-known/acme-challenge/UHEBKVS2YQN23TX5RS1E9DXRMJA82IZI 1 64 1 0
+/.well-known/acme-challenge/R51BVQ8M97664H11YAJ0GXX7PG4_1JG5 1 64 0 0
+/.well-known/acme-challenge/Y-L8JUZDN4QZ-SDDG5R-1XO7UT54AYJF 1 64 0 0
+/.well-known/acme-challenge/1HQ44J24XBHC5BCJ_0LLDYPILNQAECNB 1 64 0 1
+/.well-known/acme-challenge/2MEQEINPVVTUHVQQSR0EUHM6RER269U8 1 64 0 1
+/.well-known/acme-challenge/YNE1RSPUEVR71ZYZOH6D1FMIRO1BIEEV 1 64 1 0
+/.well-known/acme-challenge/RAQOXBJLJDYPWO1U2CZBK8DGJ2EM8ZKY 1 64 0 1
+/.well-known/acme-challenge/W3MYTFS-FXA1THVR9L_4MN77WHQ45A08 1 64 1 0
+/.well-known/acme-challenge/AIEP01T-06YEYCZXZU29XG3S-306Y0ZM 1 64 0 0
+/.well-known/acme-challenge/WDBHD7P5F7ZM4RSRLA371-6-54O25BZ- 1 64 1 0
+/.well-known/acme-challenge/AUKUHAF6MD7R-0KIMNVNVK3RVRKMUSNE 1 64 0 1
+/.well-known/acme-challenge/UMMWIFOIVTN7AN0P251PF0K5O4SD2URU 1 64 0 1
+/.well-known/acme-challenge/5CZNSIIINAR3EEN4_D9QSBHYO7421NTA 1 64 0 0
+/.well-known/acme-challenge/X951C1G3V1POHQV8N6_EPEDVKND_ZM4S 1 64 0 0
+/.well-known/acme-challenge/34VK403EGD3E73TKWOE2-XELRIR7RY27 1 64 0 0
+/.well-known/acme-challenge/HMHKVY_GN3F295UBWUUJHABUB87YW36Q 1 64 0 0
+/.well-known/acme-challenge/SGYMMU76A1R1RVICD2_-8XATDKVEISFF 1 64 1 0
+/.well-known/acme-challenge/L01PW2L6EN-R9O8PY7-AC5RH8HFOW5HZ 1 64 0 1
+/.well-known/acme-challenge/CQOC_UH-8EF-3LPFHQUHE8YKVWXX9JYQ 1 64 1 0
+/.well-known/acme-challenge/7IGGEM2A16MSTO-OJD699C29FPEI9ZPK 1 64 0 0
+/.well-known/acme-challenge/8ZJATRMQTW40RR6U0_BA-RNDP4SM5OC3 1 64 0 0
+/.well-known/acme-challenge/FRJWIHT0XXLCGV117HU5ODMH3IWQZR64 1 64 1 0
+/.well-known/acme-challenge/5JABPNH_NFDD9QS1DI062UQKIOR911PR 1 64 0 0
+/.well-known/acme-challenge/DUC490B9262TGQP8YKYDMLBU43S2Y518 1 64 0 0
+/.well-known/acme-challenge/5S8D_4ECP5WFP752SISI7VN8WX3ABU9T 1 64 0 1
+/.well-known/acme-challenge/M058XC1TP4-Q83INFNKLJJ8JQCFA0O6E 1 64 0 0
+/.well-known/acme-challenge/27NX_I6D5S-W3X9LESIR8EVWYVYYCZIY 1 64 0 0
+/.well-known/acme-challenge/BO5XPNVCRY-C26LDX85LD4F3-Z_EC44K 1 64 0 0
+/.well-known/acme-challenge/5ZECI9JS3K_-V1086Q7W4IANASW-DFXC 1 64 0 1
+/.well-known/acme-challenge/SPSW1TJMO7TYBR-0Q30LCGO3-CBA8ERD 1 64 0 0
+/.well-known/acme-challenge/HOTMPMO-K570Z2D9Q13LMHMGYQX3L83M 1 64 0 0
+/.well-known/acme-challenge/ULMXHU_FYBUSY4JSLG2T0Z1ZWD2N7IW8 1 64 0 0
+/.well-known/acme-challenge/1NIMX-K9ZGXZSNUONK7LVQ9STIHY4ZSY 1 64 0 0
+/.well-known/acme-challenge/BW5ATDIKFHBWSBXIE0ZIVTQI7NKNCRCW 1 64 1 0
+/.well-known/acme-challenge/C-O-LNYRTD6EFHC2C0PNR99988ZYV59O 1 64 0 0
+/.well-known/acme-challenge/26HGICS298USOG8AH0_KMZB4JS-CN4-V 1 64 0 0
+/.well-known/acme-challenge/VKU-XOY40014X35T6H515OSF-GFPDACT 1 64 0 0
+/.well-known/acme-challenge/C-MSIO3SQ9PDFOSZWU9V_5FPCHNFEG2J 1 64 0 0
+/.well-known/acme-challenge/0VTO0LKRKGU2Q9K_2NGW263D_I2ZFDDZ 1 64 0 1
+/.well-known/acme-challenge/AJH--OZ6PHUGG1NE6H0ZCO-XQLYVDFKA 1 64 0 0
+/.well-known/acme-challenge/0H_VLN54ZJB9XLPN4OD32VB_KSCMEX0N 1 64 0 1
+/.well-known/acme-challenge/0MER519Y_ZLEHF2_DZB43JWXI2RINX9K 1 64 0 0
+/.well-known/acme-challenge/S01CU8TFMD-P1Q95JQ7BA9ZXH2ODHBXW 1 64 0 0
+/.well-known/acme-challenge/TJAS795EZ1C9W4_OW4QRU1GJANE20BBC 1 64 1 0
+/.well-known/acme-challenge/VGVZELYDXT585O8U4TZB2AH6EV1HRIG9 1 64 0 0
+/.well-known/acme-challenge/SX-OR7N233IEOQK4R_A29JPD8IVRJRIE 1 64 1 0
+/.well-known/acme-challenge/FL-1NBJ_3PY6V0X-31R1G63U9VTVJA9I 1 64 0 0
+/.well-known/acme-challenge/LTF0GHLELOAWEC6RY19ZY04VTPL6LR6M 1 64 0 0
+/.well-known/acme-challenge/-RSXOHP44IPULFYK507N8G80RVD6G5LS 1 64 0 0
+/.well-known/acme-challenge/YB2X9HFSSHVYTKOS-HBAD9QS_3YTX02L 1 64 0 0
+/.well-known/acme-challenge/W2PC20-OCGHIIGLCKALO6HEGLFIJ563G 1 64 0 0
+/.well-known/acme-challenge/XKYL6AP79KCH_ZE197023FK9BH0YAHCC 1 64 0 1
+/.well-known/acme-challenge/DL7-SCDXTY4U4K4BWW8N20CGPN2YZNC7 1 64 0 1
+/.well-known/acme-challenge/GAKQD144EWPL5HJVP6R9F_64HPB9H3Z6 1 64 0 1
+/.well-known/acme-challenge/5__IIMGO-AHNVI6S66KMEX1ECZ_JI_N5 1 64 0 0
+/.well-known/acme-challenge/4ZM4LB0OK8T71P_VTFLX3TYFRHT6GPMY 1 64 0 0
+/.well-known/acme-challenge/2X8-3X073DZD_Z5V9XEV6L__GC5WJ8B6 1 64 0 0
+/.well-known/acme-challenge/_YM9WKWN-01MNUU-1-_9S1NQG6WG5_-7 1 64 0 0
+/.well-known/acme-challenge/MJIDRK_NJAWM9YP966PL0Z8MTZ30448T 1 64 0 1
+/.well-known/acme-challenge/9WA7GF-PVZLA8PEE_4248QI9APD8R_W_ 1 64 0 1
+/.well-known/acme-challenge/X_-EUSK9YGRXPDXGHIX23_HHC4ETPV3P 1 64 0 0
+/.well-known/acme-challenge/--ITZKNDPRUNRAQENRN86IF9YETV5KZX 1 64 0 0
+/.well-known/acme-challenge/RO--DRKDZS-E3N-R90BJ-Q4FB4UA81WD 1 64 0 0
+/.well-known/acme-challenge/3P1G9VDWAENCZ4MNSWOGLODC4R94Y4YR 1 64 0 0
+/.well-known/acme-challenge/C8ZQCIOKASVM_H2TEQE0DPO8MBKN00-F 1 64 1 0
+/.well-known/acme-challenge/CFGSDBR6NUN2CEYCYFFFW3LWU0919JH7 1 64 0 0
+/.well-known/acme-challenge/HCN5WNCAVZ0GZ5ERO1374NYOCVANP_FU 1 64 0 0
+/.well-known/acme-challenge/I6DSDHCTNM2VMJLC9IV0M3A5FBKTHHBN 1 64 0 1
+/.well-known/acme-challenge/65_W6RZPGL3K0OFDT_U-6DML-IAYEJ5T 1 64 0 0
+/.well-known/acme-challenge/H9S-HXU7ORG68HY0ALZRNSCGIMAVHUEP 1 64 0 0
+/.well-known/acme-challenge/BANL-ESBL09YXP0R0QP8EBC256VQL4YX 1 64 0 0
+/.well-known/acme-challenge/H5UON8_9S1LATTVIU6OKKMPHXZLS-DJW 1 64 0 1
+/.well-known/acme-challenge/41ZQKW019IN-14BVUKGS2J3IHP3KJE_B 1 64 1 0
+/.well-known/acme-challenge/S5900TWC59O85YRMVDHLF4TIUIIZI79X 1 64 0 0
+/.well-known/acme-challenge/RS6-40P61HCL8W441NI_NZ-VOWU5E37U 1 64 1 0
+/.well-known/acme-challenge/ALIOGDT26KQDKKA1JBCRUBNSRCYLIP9I 1 64 0 0
+/.well-known/acme-challenge/J6VW5-OKQNRIP2MZZMQ_R0BTJ6IY7O23 1 64 0 0
+/.well-known/acme-challenge/2L2N95EI21B6-1C6P380VTVK1MI6K-A_ 1 64 0 0
+/.well-known/acme-challenge/LHTYRP4--IS37GV48-MZ56EC8G9RDA4A 1 64 1 0
+/.well-known/acme-challenge/5DJQZUM2YIINR72T5WT9EYGTZ-1F64WV 1 64 0 0
+/.well-known/acme-challenge/Z1RQ8BHINECDOPHOUX379M6O43-NRHN_ 1 64 1 0
+/.well-known/acme-challenge/VON_FP-MUMLBW7G-1I-S1BRTB-96MTX9 1 64 0 0
+/.well-known/acme-challenge/CBA67AMIOS-5-YRGL5IQMVOW0ZTX66SA 1 64 0 0
+/.well-known/acme-challenge/6VBBUDI84Z2QGNADCVHAFKIQ26HXF74- 1 64 0 0
+/.well-known/acme-challenge/XY4C666PQFUQ0Y-A57TXW4UIN0VTA5WT 1 64 0 0
+/.well-known/acme-challenge/36O6JXQEL2F338BTJHJCI8U8OVDIHL5I 1 64 0 0
+/.well-known/acme-challenge/L9W96P5G3PXLW82J2XILQFG0T2OKRVGF 1 64 0 0
+/.well-known/acme-challenge/95QB-67282ULJF_PBI4QEEL7NGLMMWOV 1 64 0 0
+/.well-known/acme-challenge/0TV5FZUQMCQ7MBSMFXVI9B4WR9LQ3ITF 1 64 0 0
+/.well-known/acme-challenge/YI253_4_983GUF3JYGSAZFBC520WL8N0 1 64 0 0
+/.well-known/acme-challenge/GM44X13JPW_TAFDSA9-FRE2XH7MOX_ZU 1 64 0 1
+/.well-known/acme-challenge/C71IHGXY2D61KQGO2FWMWUP-L3IX97BL 1 64 0 0
+/.well-known/acme-challenge/XODM7TLXQ3ZNQX9A_WEBU4QU082JN99J 1 64 0 0
+/.well-known/acme-challenge/KXF-TXWH5UT82EIQXQN63_KLL_ZWT410 1 64 0 0
+/.well-known/acme-challenge/6LCBV1ZR0Z1_6J-74S29B59SXO7CE7MV 1 64 0 0
+/.well-known/acme-challenge/JY05R91-UV8XP9O89HJNRE7RKV_JRRT9 1 64 1 0
+/.well-known/acme-challenge/AZWF4IESPMAQ1ZIYG121PLESHHRQ_0RA 1 64 0 0
+/.well-known/acme-challenge/21D7SG8U5GXR3J8JTSTKEFIFVKTEO9VQ 1 64 0 0
+/.well-known/acme-challenge/U0O83L2XA6J4QPJFZ_UPZG_8EQ46BT3S 1 64 0 0
+/.well-known/acme-challenge/LA-U94I12N7WFS4SU5_7TVV6BBAGSB70 1 64 1 0
+/.well-known/acme-challenge/KKGTF9BL861FR_950T6FKJ6L7__FFQC- 1 64 0 1
+/.well-known/acme-challenge/C4K0DSF0AC5G1GA6-KD1WHU0S_ATUHW2 1 64 1 0
+/.well-known/acme-challenge/8-HC6FYCBJ-DC-23D0MXBIMEI5AS573R 1 64 0 0
+/.well-known/acme-challenge/CHYP7XQ0GDS1K_IN2_J20XO3T74I-8QR 1 64 0 0
+/.well-known/acme-challenge/72TR813OKMZUFBK8G80PDJZ7V15BL5SD 1 64 0 0
+/.well-known/acme-challenge/0E7_278KHR8ZT036OMJMWDG-E4EXSEAI 1 64 0 0
+/.well-known/acme-challenge/664T75TM5CTHBXTNDFNBPNUM01I37YLD 1 64 0 0
+/.well-known/acme-challenge/DNU8TQVOVHPRVCSNB-VBK6AVFUFN45AG 1 64 0 1
+/.well-known/acme-challenge/NY0P8N35HH_82M-YS37DYX84T7I_LKZT 1 64 0 0
+/.well-known/acme-challenge/P8_GM8A19H-0B3KSALGNNFQIIIKYB_O0 1 64 0 0
+/.well-known/acme-challenge/00FWOCJN4E3COR-WJW9EDGE-IGY_A_TL 1 64 0 0
+/.well-known/acme-challenge/RNKYLEHKDZA5R9CLIA-A5FAQB7ISVL_V 1 64 0 0
+/.well-known/acme-challenge/6_BY5_1AKIX5EA9GM1TWIZQ6NWYAUJ5Q 1 64 0 0
+/.well-known/acme-challenge/3BIVLWPUKIB0H-VOS7QE3VB5W2VNI87C 1 64 0 1
+/.well-known/acme-challenge/V6NSW0S48LQGGF28Z68XG5_I4-ATMQZG 1 64 0 0
+/.well-known/acme-challenge/1FD3D9Z8F71LV2F5G751RWB6V5_HEKTU 1 64 0 0
+/.well-known/acme-challenge/XGX-HKV6YBHFICJEO0OLZEBENVIG6XQ2 1 64 0 0
+/.well-known/acme-challenge/53D7CMX-9CGFI6NB16FLOEVJEW4FT8KL 1 64 1 0
+/.well-known/acme-challenge/XO5L66J-14TWGMHTI5ILY_E-22KE2Z30 1 64 0 0
+/.well-known/acme-challenge/P2R-ANY97Q_FBTOFW2V2W4W8FOB_Q0RE 1 64 1 0
+/.well-known/acme-challenge/HMZG_0H4R4MP9A3OW6QAJUJZ96P_RN1N 1 64 0 1
+/.well-known/acme-challenge/PQZDK70CMWKO8HAT47CTS328-FF1-98_ 1 64 1 0
+/.well-known/acme-challenge/U3OQHU6AXLSZ6ESA79S871YSVVZCSQ34 1 64 0 0
+/.well-known/acme-challenge/7-8LAB750PF7T825NRW-32Z5N4M8U57N 1 64 0 1
+/.well-known/acme-challenge/HEWAYI0P_1I-V9F8RI4G-IAZ8JG9LJED 1 64 0 0
+/.well-known/acme-challenge/8IJO45NGAU4380VJUG1QKVJM43HARKJ0 1 64 1 0
+/.well-known/acme-challenge/9ZQKLSXNF7NTW3Z32Z6-_TCZ4EXC-CP5 1 64 0 0
+/.well-known/acme-challenge/1HS1AUAATM5P0KOCJ40_KC69Y47W-OJM 1 64 0 0
+/.well-known/acme-challenge/3L5PK9XDTF0E2XSRRZL6L-7_GIBJN1XL 1 64 1 0
+/.well-known/acme-challenge/VYQTPS5Z5YL807VDKB2NB7O07-R-Z3L_ 1 64 0 0
+/.well-known/acme-challenge/T6S3IR9T7L5SQ1BX70G9TEVSU2KMB9P- 1 64 0 0
+/.well-known/acme-challenge/3YI368Q399SZHH5KUUYFI0IMYI-ZLEV8 1 64 1 0
+/.well-known/acme-challenge/_6W-5R8U_ZJ5_Y287UAYVF36EWYITNO9 1 64 1 0
+/.well-known/acme-challenge/OOCW4DMXQEXCA3RTGBPZ3MHO2T96U424 1 64 0 0
+/.well-known/acme-challenge/RFBS-2M4ALZUCR7O_HF7GFX_HJL2EA13 1 64 0 1
+/.well-known/acme-challenge/J5HINTJZ4JJH2O8W629AQWLGCH-B_JAF 1 64 0 0
+/.well-known/acme-challenge/3JEQM6L44-N9OM8ZJW0-5N2EF51KFU_B 1 64 0 0
+/.well-known/acme-challenge/KM998IR2FXD20A2QCTJ6X04TW1M8K_AU 1 64 0 0
+/.well-known/acme-challenge/C2FFUVTFJQNQBJRNK0JGWF0RU6-9Z86H 1 64 0 0
+/.well-known/acme-challenge/B5JOKI2E06RKHWGDRBB8P9-F2JF7V182 1 64 1 0
+/.well-known/acme-challenge/1ZTGG25_GD9GSU1Q40-EUO1XHTLIQW22 1 64 1 0
+/.well-known/acme-challenge/GDCU8CG-A6MRZBWEMMUE2X-ZAV86GN1Y 1 64 0 0
+/.well-known/acme-challenge/-21LCE5TJLE8TG75-KH3VISQXPQM65QJ 1 64 0 0
+/.well-known/acme-challenge/SNR-C6NP1-5V4XLFKRZ5QKNXW0RHYT3Z 1 64 0 1
+/.well-known/acme-challenge/-6SOLUKK1887NUHFQXCB0NORI_3OC6VG 1 64 0 0
+/.well-known/acme-challenge/DE-Y5CH0DPHGVNC23-DIUCBTRSUORMQG 1 64 0 0
+/.well-known/acme-challenge/U-K3Q7XBH560DFWKJIVRWQC2AFT_43K5 1 64 0 1
+/.well-known/acme-challenge/L39FC0E1CF3VG_NEE6F5YOO0EJPMUL-7 1 64 0 0
+/.well-known/acme-challenge/_1523IZZ_TE998HSO515CPRZIW49V-0K 1 64 0 1
+/.well-known/acme-challenge/-O5IOAQ199BIB0CRUL3Q-48D4MWGIUSF 1 64 0 0
+/.well-known/acme-challenge/T-AIMDHFHLUXSFEQ0GLBNC2CXAGLKC4D 1 64 0 1
+/.well-known/acme-challenge/G82D1XTIKLE9A3R3N2P948YO-ZC_VRI9 1 64 0 0
+/.well-known/acme-challenge/VV09ZANY_L4PDV0Q17I32F7VG-3I5H6C 1 64 0 1
+/.well-known/acme-challenge/HXDBMEYV6KK44PH1VGIJQIQUAWMKTSW7 1 64 0 0
+/.well-known/acme-challenge/DVJYD7NDZW1IYD163XUPNFZCLZ370EA6 1 64 0 0
+/.well-known/acme-challenge/_HM97TKWKYKZ_3M-HN0YKJDUEN1979J2 1 64 0 0
+/.well-known/acme-challenge/EAP8OW1HJSX57H2R9EQ83E2-6MG5MM4S 1 64 0 0
+/.well-known/acme-challenge/G3WAN055PJH15VI_I3QOM3TPM8ZT1M6D 1 64 0 0
+/.well-known/acme-challenge/QP4H34JHX1XOP35MJK1ZY-B78OL8-OGU 1 64 0 0
+/.well-known/acme-challenge/HYYKU-0FTIFQS050HUQZL8DR8X2Q6-N6 1 64 0 0
+/.well-known/acme-challenge/VERFAATBDW-W1683OCFY65P0NUM6ZYH5 1 64 0 0
+/.well-known/acme-challenge/WLMRSM9LFF0OQGTM2B_YZ1ZRWIOFGN3S 1 64 0 0
+/.well-known/acme-challenge/CMBNDEVD0X4YD7U7NFXFPBUC3DZB8JW3 1 64 0 0
+/.well-known/acme-challenge/D1FZOHHCKWNNFNU5GOHNV-EQWJ5T0KJM 1 64 0 0
+/.well-known/acme-challenge/GUMB7B1G_WQ6MU78T_T2KDZK9Z_PGSKU 1 64 0 1
+/.well-known/acme-challenge/GFRG07DTKZUJ9_TJ8LM5SLF513OJPCZI 1 64 0 1
+/.well-known/acme-challenge/YYHT19S-E-JNJC700HF0O96LNTVULV7G 1 64 0 0
+/.well-known/acme-challenge/DKIG1WTRXLOU-DN1Y4PRJU5ND0BN1DGB 1 64 0 0
+/.well-known/acme-challenge/K6JML2E9CZGKWW9L5-BKNZZ3O8X9I1L3 1 64 0 0
+/.well-known/acme-challenge/JJSMP87N44_2YDLEBSAS33YME9KJTKB0 1 64 1 0
+/.well-known/acme-challenge/963X4VFTKWQN7Y6LINFF2GPUN0JU6P07 1 64 0 0
+/.well-known/acme-challenge/HD538EI1P8GS30L30NMLM9VGWXDNE9KC 1 64 0 0
+/.well-known/acme-challenge/CM0RI78Y7BARD216ZPEQVE-98YOS_2NA 1 64 1 0
+/.well-known/acme-challenge/6UW_O4VIQ203II66SFX51MVTEX817WB9 1 64 1 0
+/.well-known/acme-challenge/WB4TZPUUIHC7H4JBJ613AIDXGCDT0M57 1 64 0 0
+/.well-known/acme-challenge/R66WU_4SSML1YHS6SCR8KY1LHQBQHB67 1 64 0 0
+/.well-known/acme-challenge/SOEO4_XQ9JFBGNHSFXSGN9B_WTSG6U8- 1 64 0 0
+/.well-known/acme-challenge/Q6HIC9-75MELQ-4PG-_K91K7MOW_N1S4 1 64 0 1
+/.well-known/acme-challenge/IG3XHAH7WJ-6LE6T8_JA4QW5SJ30UA0E 1 64 0 0
+/.well-known/acme-challenge/F57W1Q0ZDUSV99TY36Q8MXBN7ISPUD-G 1 64 1 0
+/.well-known/acme-challenge/6T78NTADPLB5DS2QY81VN3YBX030JJ-5 1 64 0 0
+/.well-known/acme-challenge/3I9JXEPF85XHCQLPSEFPJMQH4Z4TPEOL 1 64 0 0
+/.well-known/acme-challenge/ILW7WLADWIB0BNIYPO2PX0RQDOOSXMRQ 1 64 0 0
+/.well-known/acme-challenge/EH80I3FMX2_LNS86W2NJYHBFPFAOPLCY 1 64 0 0
+/.well-known/acme-challenge/O4OY6I29MH6JB1B3FIPOPXF2Q9N4I9A1 1 64 0 1
+/.well-known/acme-challenge/HB_EYLA51E9CYBQZR24R7PDKZUVH7R6S 1 64 0 0
+/.well-known/acme-challenge/4-969NT74TU2ZK_TDXNNWEDNOKLHSEOA 1 64 1 0
+/.well-known/acme-challenge/JIMIY_3EOXEVLJTWF_102S34CI0RF1-Q 1 64 0 0
+/.well-known/acme-challenge/5W9AP_SGEL8756VIKMJ4L5XROQNHHWBX 1 64 0 0
+/.well-known/acme-challenge/C-7TY1-YV-K6WM41FZGPIKV7B1U54BUK 1 64 0 0
+/.well-known/acme-challenge/G154GNDRDFYEHAUMRD3JSCOZN8E2JUPL 1 64 0 0
+/.well-known/acme-challenge/6B009Y_1-FV1GJYBSO1OWGE6HRKJ_VYV 1 64 0 0
+/.well-known/acme-challenge/HYN97VFUHMCUVBWJKRC_FS8M-CN9GQV0 1 64 1 0
+/.well-known/acme-challenge/T265HOXDLNAL_8E4CZXUSGK5V01F1_FR 1 64 0 0
+/feed/ 1 208241 1 1
+/.well-known/acme-challenge/H8U_TK80C-QB95IQTZ17O-T6SXYKRLOU 1 64 0 0
+/.well-known/acme-challenge/1HUV_YNZKGV3_3FEJWTLSCDG0N7K4BZQ 1 64 0 0
+/.well-known/acme-challenge/4X61_S4EHTGWXM-DE4ZE4TF16XT8N_MP 1 64 0 1
+/.well-known/acme-challenge/HLRUM7B47D83WLRWAPJKR2B-9KCYZCEN 1 64 0 1
+/.well-known/acme-challenge/VR31MS2K7C_RKH_FXMS2CW6MJVO_DLTQ 1 64 0 1
+/.well-known/acme-challenge/D0ZY6CFH14I41T6EW7HU-3_H21JJNO4C 1 64 0 0
+/.well-known/acme-challenge/HVYA15QKS1-DZ-3TYZN1E9JBV80ZC8WS 1 64 1 0
+/.well-known/acme-challenge/ZFDEI_X-YGMQGLP3VFF5383YSCFVKMI_ 1 64 0 0
+/.well-known/acme-challenge/Y73X_8MUWUXUPMFY9M7WKMF-I0U75AZE 1 64 0 1
+/.well-known/acme-challenge/0-KW-J4JKM-11V6THSJTI3EZLKJAO265 1 64 0 0
+/.well-known/acme-challenge/J9_3RXA_YV5IW8TW8WT-63MT6KJTC4AF 1 64 0 0
+/.well-known/acme-challenge/_AKCTW6A0XX8NW6IW5292_AWZLUMXRYR 1 64 0 0
+/.well-known/acme-challenge/WK_3UNVLKY-Y43HTW_36V9T2HATTKA4C 1 64 1 0
+/.well-known/acme-challenge/4D1D4T7ZLYQPXKRZ13B59VDV5JQIWAXM 1 64 0 1
+/.well-known/acme-challenge/H1GKSKCG-E_I9XV7KI3WFIIRAJQ5HF0D 1 64 0 0
+/what-is-a-steakhouse/ 1 65536 1 1
+/.well-known/acme-challenge/E01OC6FDR9X25G9P37GUVS6ZQSZKY-70 1 64 0 0
+/.well-known/acme-challenge/UV1YTJMSE271VEZB978YRQRB-EH9I3-W 1 64 0 0
+/.well-known/acme-challenge/W7JT-0LLYDWL1A23U1-KKINAT54R5JUS 1 64 0 0
+/.well-known/acme-challenge/CA-DT893NFBEFNOBGRJLCNI9H48ZQLET 1 64 1 0
+/.well-known/acme-challenge/BIHR-C86RYFGKM6GWOEUM0EJA-Y6151R 1 64 0 0
+/.well-known/acme-challenge/RS1O2E35ZOMDR-DI9BMOAY5SVX1G753U 1 64 1 0
+/.well-known/acme-challenge/5W-PLDDRYBJY3Y2FY_E5NRBW1N2XB8WR 1 64 0 0
+/.well-known/acme-challenge/K1CFBT4XTATMRZB2MN-QV1UBFX4WLKPG 1 64 1 0
+/.well-known/acme-challenge/L31L87XKODI9N1EDGW2YY8V6P7CF8MQR 1 64 0 0
+/.well-known/acme-challenge/UMTO3-YF77GI326R7928VVB17NLRG006 1 64 0 0
+/.well-known/acme-challenge/BZZ00H-VQS0630GAPP8X4MG1B3GENMLD 1 64 0 0
+/.well-known/acme-challenge/BGJ6TY5I7DLL5V-QB3A7IW1POL4L0MIK 1 64 0 1
+/.well-known/acme-challenge/7MXYOM_YTHZ-CN-BIIY7TNFA4CM3-RQ9 1 64 0 0
+/.well-known/acme-challenge/4VSIGIBWA87CXZN3M2ZBKHD745CVJQR1 1 64 1 0
+/.well-known/acme-challenge/9YKZF_QLABQMDPXOHLT2ROMT_4N_83BN 1 64 1 0
+/.well-known/acme-challenge/LST9-O3AGJBQLP8Z8C3UNI6WVAH6SB33 1 64 0 0
+/.well-known/acme-challenge/RW853YB-GA-6T7T8CZV88X9U6-GJ8T4U 1 64 0 0
+/.well-known/acme-challenge/NEC1QP279PSQBO__OAI5X3M7-CCWPE2B 1 64 0 1
+/.well-known/acme-challenge/XRP47GZJKW3-UBMGZYLDUGJMT-DU9ROY 1 64 0 0
+/.well-known/acme-challenge/6HE6LQEAPNIRNWYN9PX-HYT27QMLYIKA 1 64 0 1
+/.well-known/acme-challenge/JA88UEWI7F2UJN1RSWN38X-0265Q79RX 1 64 0 1
+/.well-known/acme-challenge/0I8JWHWP75DOYRY4AI71C60PUSORY42F 1 64 0 0
+/.well-known/acme-challenge/226PYQCQ_4F3Y4AAZBJQRSL5XTF4EDOE 1 64 0 0
+/.well-known/acme-challenge/N-DHVNOCQI8MVIR5XS1U379N8JDJP6MQ 1 64 0 0
+/.well-known/acme-challenge/YDFKQPY8Z070CHHEE8JAXCZ2BZPG9N4L 1 64 0 1
+/.well-known/acme-challenge/GIRZBBCFCK97-QLMHIECFQ7SSNUFN4TG 1 64 1 0
+/.well-known/acme-challenge/FAUOVSE4BV_RJNIW4_XLQN6-UY-U3M48 1 64 0 0
+/.well-known/acme-challenge/M794JX8IONFSDADCI5FZUB66C8172GW5 1 64 0 1
+/.well-known/acme-challenge/MBMOHVG8CJ0KS5UBWX0-V78WG-ELISH7 1 64 0 0
+/.well-known/acme-challenge/DPBY4TP3E_GZNQXF74XOV4N7U-P6BED5 1 64 0 0
+/.well-known/acme-challenge/N5TWAND5S-GILU14R448WTZ70D30VQN7 1 64 0 1
+/.well-known/acme-challenge/F73D8VY41WKFGMKM8L8KXU3BNR_AD_CX 1 64 0 0
+/.well-known/acme-challenge/YRNSM9KBMPWBL53S5DDOMEZAK0Z8M3GQ 1 64 0 1
+/.well-known/acme-challenge/3JM_LC_0_ZE37N66JA6UT47TF611TP11 1 64 1 0
+/.well-known/acme-challenge/TKYLB9ZKCEG4HPB13TWM08VL4N2I894W 1 64 1 0
+/.well-known/acme-challenge/JFB1TOJ_ESD_171TPPNAPUIPVJW6FGQ6 1 64 1 0
+/.well-known/acme-challenge/TOP576R1KG_C_EUGU5-YM0RNTZOFET1K 1 64 0 0
+/.well-known/acme-challenge/9D2JYNNT54C250UV3K-33M-SQITJEL-8 1 64 0 0
+/.well-known/acme-challenge/1G7OXX-MIE967W8HFFRL0MRRBSTR4S4W 1 64 0 0
+/.well-known/acme-challenge/201SRICD0_8-1N79T_M_VPF76FA8NL19 1 64 1 0
+/.well-known/acme-challenge/DI374E_8G0L0ZZBK6W5GVH2GXLQAEL8V 1 64 0 0
+/.well-known/acme-challenge/DSBQ2I14U1339L7D0MMZT5OCNWV2EJCX 1 64 1 0
+/.well-known/acme-challenge/L92VEB4C9WA2S6_N_O52-06-NJA3_J0V 1 64 0 0
+/.well-known/acme-challenge/CKNVHPE_Q8CXY1YE97TY3EKWD9SGR4SG 1 64 1 0
+/.well-known/acme-challenge/5HVCVCJ5J0I0OW7MZSRRDV7W9PL56VWK 1 64 0 0
+/.well-known/acme-challenge/B18-JC5V3P-TM7IAANNQOYQ-0MZC6U1M 1 64 0 0
+/.well-known/acme-challenge/I5L_Z2N7TWDWT6-ZSHPBZQKYZBU0PMIC 1 64 0 0
+/things-to-do-in-sanur-with-kids/ 1 265136 1 0
+/.well-known/acme-challenge/Q8V8ACO2NXFV92W_2_V-3D6LHVSN276S 1 64 0 0
+/.well-known/acme-challenge/PVNDJDV9TFFCJ4FTHWI0_9T8HD_DTISI 1 64 0 1
+/.well-known/acme-challenge/DZL_VF3B4JL6Y6RQFXJO4VQV5_UFPCMA 1 64 1 0
+/.well-known/acme-challenge/F62PFOJHBG1B6-AA__F3H20MG6X0YUTB 1 64 1 0
+/.well-known/acme-challenge/HUP9W_YSMI2P6PB7W5Q-G30V5GHXJB_I 1 64 0 0
+/.well-known/acme-challenge/LAJ4XEMW_SSASKMA8K66HL7_CG979QEU 1 64 0 0
+/.well-known/acme-challenge/YF53TM6RBH93BO3H_9GNQVAAG9AUM7V_ 1 64 0 1
+/.well-known/acme-challenge/7LO_KK3SABS_66YW1G0510EIFOW1ZJ2R 1 64 0 1
+/.well-known/acme-challenge/_W27NBM5ZHM28IKWOUS_2JP8FAQGAOVW 1 64 0 0
+/.well-known/acme-challenge/D4IPK7MEHZYHXZPL6NZ-ESTAZSDJSXUX 1 64 1 0
+/.well-known/acme-challenge/UVUTN0LV6_UA-PYH6P1XIKJMIJBH4V-0 1 64 0 0
+/.well-known/acme-challenge/13Z33PR3M69G7ETV-L_EG4BC2UJHS1KZ 1 64 0 1
+/.well-known/acme-challenge/O1-_T3ZYT4I-YCXHZ2RAQJ0VQ1OY8DBA 1 64 0 0
+/.well-known/acme-challenge/CJSLNT4VUCE7W5OX75IVX8CWS57M8-5Q 1 64 1 0
+/.well-known/acme-challenge/I980CMVIYNM_UXBV0JXRWAQUZUTJ8OWD 1 64 0 0
+/.well-known/acme-challenge/2M6NVOU4T68KGD0BHPN898BFW8HS-CX_ 1 64 0 0
+/.well-known/acme-challenge/GZ4GVYULQKBOMVAWLLWCJJU65DIXT15P 1 64 0 0
+/.well-known/acme-challenge/6OZIUNI0FBKUEDJA-_FC356WYQ9BL4V8 1 64 0 0
+/.well-known/acme-challenge/BO9_IDFDVUALIO96JBEFBOMPY40CTEWF 1 64 0 0
+/.well-known/acme-challenge/FU8_LXDLH9C54ZBSETA_S1JU7_HJ-FFY 1 64 0 0
+/.well-known/acme-challenge/FNBU1K4S1LOSMG2_-1N7F4I9JRYOX-I5 1 64 0 0
+/.well-known/acme-challenge/ZFXZOC1PS9GM9ORPX7KJ226JPMD87A9S 1 64 0 1
+/.well-known/acme-challenge/UZOJ7119J_7-8SB-SD3FGFWQ-3M-GUSL 1 64 0 0
+/.well-known/acme-challenge/0PQHI2V59XG15FBAA1M5IE1FBD17_HXX 1 64 0 0
+/.well-known/acme-challenge/AVU4-11EZOVNYCZOOMKJQ1UD5UUYETK1 1 64 0 1
+/.well-known/acme-challenge/H4-SPCI_E6UNNFXGX-2WIUDOFND1ROX- 1 64 0 0
+/.well-known/acme-challenge/SFOQGK0RA9RT27PZ7-A37EJ0CQXGGCRT 1 64 0 1
+/.well-known/acme-challenge/LFSDKTXX5737TTNMIALUZBGJMP18Y78E 1 64 0 1
+/.well-known/acme-challenge/BS33YDIXT8UK4WOY4MSFIDN499RJ0SDX 1 64 0 0
+/.well-known/acme-challenge/O2WRWEJE6RY1DVH6CF404WLJ5OO1RZLJ 1 64 0 0
+/.well-known/acme-challenge/VPYIY2X4LU84DO-BDGYJA_JMZ2O9APFB 1 64 0 0
+/.well-known/acme-challenge/5XHM6JGCBV1TD_5TC5S62RYOZJNYYLLY 1 64 0 0
+/.well-known/acme-challenge/2IMH6AYQCC7SG5XPR1F18BD2GR5FR58D 1 64 0 0
+/.well-known/acme-challenge/XR5JT2P6R2_4B7TH495GKBI9KKJ_8DJR 1 64 0 0
+/.well-known/acme-challenge/BXO-37HZA5MIP8QEGZIGP3BKTUM9MEW7 1 64 0 0
+/.well-known/acme-challenge/H7W-IRN-HFIJHAGZGYRGFHWIC97RUMHE 1 64 0 1
+/.well-known/acme-challenge/F6YYFHC886JQQXTXMTJULTMNYQGZOSL0 1 64 0 0
+/.well-known/acme-challenge/GY-V7XC2VYLBFIMV07U90E750AE_I141 1 64 1 0
+/.well-known/acme-challenge/75ZN52-J1IRWKBZ-YNRJ3YKS1B0RO2CA 1 64 0 0
+/.well-known/acme-challenge/1380G1VVD601B5QBMG_9PMS7IFXO0U5F 1 64 0 0
+/.well-known/acme-challenge/SHHEUKC4_DBOP77_M7J5EPMPR1MX7P_M 1 64 0 1
+/.well-known/acme-challenge/EASNAEQ96J25893-7EMD9LYRM2_M-V-0 1 64 1 0
+/.well-known/acme-challenge/L3YL4O7WVL291FXCTXWP2VIWND90MHUM 1 64 0 0
+/.well-known/acme-challenge/XYPPZPW-3EJLP-A_0ZSBHV2ZUC0J8-08 1 64 0 1
+/.well-known/acme-challenge/O2-P3QZUX8J16LCVSBQGZ8XGR8-5BM2C 1 64 0 0
+/.well-known/acme-challenge/XHTXW75IWT1K-T_WRI75M-K12T_X51SL 1 64 1 0
+/.well-known/acme-challenge/UBJM9W9QCQED9Q08R8J_RES649RW3I6M 1 64 1 0
+/.well-known/acme-challenge/LEAQMH05E5D7MNJLFGXAJSKVQFSVY2BO 1 64 1 0
+/.well-known/acme-challenge/TX79KO3R8YDI781715EEZ9NX2_HTLN-L 1 64 0 0
+/.well-known/acme-challenge/3QMJ_ONFZ0PLQA4DCI7O521B3BW9EMSN 1 64 0 0
+/.well-known/acme-challenge/1WR6C4HZLN5W748QI_-Y4J33F2-4PSSI 1 64 1 0
+/.well-known/acme-challenge/DAM10KPXOQMMOGV4VH6OKD39H5RT_H4F 1 64 1 0
+/.well-known/acme-challenge/UO1TVFA7GGAZE8IPNORF1JFSLQIR2BHK 1 64 0 0
+/.well-known/acme-challenge/0_C7U2YTQFYO186OYGI9O6-ITW9_FFLK 1 64 1 0
+/.well-known/acme-challenge/QMA019T83-Q1FFBOD4EBE7KYKOUVFBZB 1 64 0 1
+/.well-known/acme-challenge/4TNVTS24A0ZAOFEOG7MT7X95N97ONBEZ 1 64 0 1
+/.well-known/acme-challenge/KEPDARJYBGUSU0QGQLQ1FF029G1BXGSS 1 64 0 1
+/.well-known/acme-challenge/U2-4X3AFMAQMDU2Q64URE69ZGN6K6JZ6 1 64 0 0
+/.well-known/acme-challenge/TE_07MRHN4YMCNY13C7HTLWD4TU550_E 1 64 0 0
+/.well-known/acme-challenge/AM-T89OX-147-0X6X6E5HT4K4ZCLIYO0 1 64 0 1
+/.well-known/acme-challenge/DD0SYJ2B2FYN8XLSXG1IAKOXX0Y4NPVW 1 64 1 0
+/.well-known/acme-challenge/Q6XDPJ1ARSCAAHKDZDYS6ZVKL8LCAUZH 1 64 0 0
+/.well-known/acme-challenge/70L8SWHZYTFGA7H8K26606Y6F_C6XEFK 1 64 0 0
+/.well-known/acme-challenge/-GSBJ3C7KYJRW2C0OAVG7RCJ06XNV3JO 1 64 0 1
+/.well-known/acme-challenge/GNHIYI1MTWKI1N0VG36ZE2-LCV2R64UP 1 64 0 1
+/.well-known/acme-challenge/Y72W9ZB8FY1CJE_R0O7SVYU9IP_B__X5 1 64 1 0
+/.well-known/acme-challenge/NYR3YW7LQB8QC32SS3SE15OIMLEKDBKM 1 64 0 0
+/.well-known/acme-challenge/KD7Q7MF6BJTHO53HR8L6IPXVYAH55W-3 1 64 1 0
+/.well-known/acme-challenge/INNQBBIL9ZARHOC0DW6F800_WAYZM7UE 1 64 1 0
+/.well-known/acme-challenge/MELTQP_S4EA81MHVXIBSLLKQ4-SX62QA 1 64 0 1
+/.well-known/acme-challenge/8JQJMZAJA5H5U5G4N7AHGEN503PQ7J4A 1 64 0 0
+/.well-known/acme-challenge/QIYNTIFA0N_H4PREJJMLMXMNX5URM6RE 1 64 1 0
+/.well-known/acme-challenge/_8GF2D7G9GQIWO27B72MI_H1VMRP8DN- 1 64 0 0
+/.well-known/acme-challenge/3UIFCIDGMV1F9JFVOS1TXEQ7-HHU2BX2 1 64 1 0
+/.well-known/acme-challenge/IGTZHT0WX1D5TM00GCG479OQAOOOOXE2 1 64 0 0
+/.well-known/acme-challenge/2X1ZF6FON2M0P_T389KVWW6Y_SYDKL87 1 64 0 1
+/.well-known/acme-challenge/XBNJ5EZ7B469FEHA6VTUGGHESCH7KOV7 1 64 0 0
+/.well-known/acme-challenge/8XODBNS8HRMXKW3FQGU33KUZD9SSWC7Y 1 64 0 0
+/.well-known/acme-challenge/P_JJ3VW_9B0WKMA221-H7J56SKKGP8WQ 1 64 0 1
+/.well-known/acme-challenge/S6HG_I_5124C43KRRHDFPPCNHDIAT0F7 1 64 0 1
+/wp-content/themes/blossom-git/fonts/branding-light.otf 1 38016 0 1
+/.well-known/acme-challenge/IFFVDGYYHY2LBVCLXTNBAF9K0X16HWBL 1 64 0 0
+/.well-known/acme-challenge/MQI07092KD6AJ7K8BE76VU4P4B6LJ-_4 1 64 1 0
+/.well-known/acme-challenge/LMRUX1VN8K6ZLVP1HRVEAMXLPETJNDA2 1 64 1 0
+/.well-known/acme-challenge/7KU5HD2FTLNQNPFO7U3RYHNVU2KUIV9X 1 64 0 0
+/.well-known/acme-challenge/N95BRSRD39ETHHVWT57LS1HL80X65UMY 1 64 0 1
+/.well-known/acme-challenge/5YXH9ZNNDLJF9JIJOKMC4JBX105PEFA7 1 64 0 0
+/.well-known/acme-challenge/WTDGE49BLBZY56Y1H1-QTQJQA2Q_GSCW 1 64 1 0
+/.well-known/acme-challenge/U3Q07DB960Z6KHWH972TM50HHFRVMIM6 1 64 0 0
+/.well-known/acme-challenge/3SNHIQ0M2_TH_3JN-Y1GI_SRL8SMSYAK 1 64 1 0
+/.well-known/acme-challenge/6PND88DNV1_6PUKPD7SG2N_1TV6BS6Z- 1 64 0 0
+/.well-known/acme-challenge/MRHEZ1UZ3HM1_9I69A957JN2-CYVYM4Q 1 64 0 1
+/.well-known/acme-challenge/DYJGR8GFH267FT8JNRNBMURJ7QMPS35E 1 64 1 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+44-100 270
+0-44 1333
+1K-2K 10
+100-500 196
+2K-5K 8
+5K+ 286
+500-1K 4
+END_FILESIZE
